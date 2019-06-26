@@ -1,0 +1,44 @@
+﻿<div class="modal-dialog modal-md">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" onclick="javascript:ShowCouponPopupClose()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <!--Coupon Window Start Here -->
+
+            <div id="DivCoupon">
+                <div class="TopImg">
+                    <img id="CouponImage" class="img-responsive" style="display: inline;margin-top: -26px;" src="{$P.CouponImageurl}" />
+                </div>
+
+               
+            </div>
+            <!--Coupon Window Start Here -->
+            <!--Coupon Confirmation Message Window Start Here -->
+            <div id="DivSuccess" class="ShippingAddress ForgotPassword" style="display: none;">
+                <div class="TopImg">
+                    <!--<img alt="" title="" src="<%=Constants.Web_Root %>/Images/CouponPopTop.gif" />-->
+                    <img id="Img1" class="img-responsive" style="display: inline;margin-top: 20px;" src="{$P.AvalonDesignTemplagePath}Images/Logo.png" />
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 text-center mtop">
+                    <p style="padding: 0; margin: 0; font: bold 24px/28px Calibri;">
+                        Thank You for Signing Up.<br />
+                        A welcome email has been sent to you along with Coupon Info.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                    <img alt="" title="" src="{$P.AvalonDesignTemplagePath}Images/aboutProduct.png" class="img-responsive" style="display:inline;" />
+                </div>
+                <div style="clear: both;">
+                </div>
+                <div style="text-align: center; margin:10px auto 20px;">
+                    <a href="javascript:void(0)" id="aCloseWindow" onclick="javascript:ShowCouponPopupClose()">Close Window</a> | <a href="{$P.PrivacyPolicy}">View Our Privacy Policy</a>
+                </div>
+            </div>
+            <!--Coupon Confirmation Message Window End Here -->
+
+
+        </div>
+    </div>
+
+</div>

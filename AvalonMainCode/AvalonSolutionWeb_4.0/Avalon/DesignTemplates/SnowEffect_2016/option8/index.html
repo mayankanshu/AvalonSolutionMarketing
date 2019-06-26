@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Christmas Effects - Option 8</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="jQueryRotate.js"></script>
+
+<script type="text/javascript">
+
+
+
+jQuery(function($){
+var angle = 0;
+var rise_fall = {
+dir: 1, // Set the direction (1 for down, -1 for up)
+speed: 52, // 12 to whatever (60 is pretty slow) higher numbers are slower
+Amount: 32, // Smoothness depends on image file size, the smaller the size the more you can use!
+sway: 6, // Set amount of left/right swaying of objects (default = 10), higher numbers produce more sway
+
+//Pre-load your image(s) below! 6 is an optimal number for variety. Use just one for uniformity.
+grphcs: [
+"Snowflakes1.png",
+"Snowflakes2.png",
+"Snowflakes3.png",
+"Snowflakes4.png",
+"Snowflakes5.png",
+"Snowflakes6.png" //<-- no trailing comma after last image
+],
+
+//////////////// Stop Editing //////////////
+
+
+loadem: function(){
+for(var i = 0; i < this.grphcs.length; ++i){
+$(new Image()).attr('src', this.grphcs[i]);
+}
+},
+Ypos: [],
+Xpos: [],
+Speed: [],
+Step: [],
+Cstep: [],
+els: [],
+$master: $('<div style: "position:fixed,top:0,left:0;">'),
+WinHeight: $(window).height(),
+WinWidth: $(window).width(),
+
+writeem: function(){
+var i = this.Amount - 1, els = [];
+this.grphcs.sort(function(){return 0.5 - Math.random();});
+for (i; i > -1; --i){
+this.els.push($('<img alt="" src="' + this.grphcs[i % this.grphcs.length] + '" style="position:fixed;top:0;left:0;" class="rotateimg" >').appendTo(this.$master));
+
+this.Ypos.push(Math.floor(Math.random()*this.WinHeight));
+this.Xpos.push(Math.floor(Math.random()*this.WinWidth));
+this.Speed.push((Math.random()*5+3)*this.dir);
+this.Cstep.push(0);
+this.Step.push(Math.random()*0.1+0.05);
+}
+$('body').append(this.$master);
+},
+
+moveem: function(){
+this.WinHeight = $(window).height();
+this.WinWidth = $(window).width();
+for (var i = 0, sy, sx; i < this.Amount; ++i){
+sy = this.Speed[i]*Math.sin(90*Math.PI/180);
+sx = this.Speed[i]*Math.cos(this.Cstep[i]);
+this.Ypos[i] += sy;
+this.Xpos[i] += sx*this.sway*0.1;
+if (this.Ypos[i] > this.WinHeight&&this.dir === 1||this.Ypos[i] < 0 && this.dir === -1){
+this.Xpos[i] = Math.round(Math.random()*this.WinWidth);
+this.Speed[i] = (Math.random()*5+3)*this.dir;
+}
+this.Ypos[i] = (this.Ypos[i] > this.WinHeight&&this.dir === 1)? -60 : (this.Ypos[i] < 0 && this.dir === -1)? this.WinHeight+60 : this.Ypos[i];
+
+sx = Math.min(this.WinWidth,this.Xpos[i]);
+sy = this.Ypos[i];
+this.els[i].css({left: sx, top: sy});
+
+this.Cstep[i] += this.Step[i];
+}
+},
+init: function(){
+this.loadem();
+this.writeem();
+this.moveem();
+setInterval(function(){rise_fall.moveem();}, this.speed);
+}
+};
+rise_fall.init();
+
+
+//Roteate
+setInterval(function(){
+	 angle+=3; 
+   $(".rotateimg").rotate(angle);},50);
+   
+   if(angle>=90) angle=0;
+
+
+
+});
+</script></head>
+
+<body style="height:1420px; background:url(cr.jpg) repeat-x; margin:0; background-position: center 0; width:100%;">
+
+</body>
+</html>

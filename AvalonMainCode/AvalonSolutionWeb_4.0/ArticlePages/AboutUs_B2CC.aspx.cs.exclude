@@ -1,0 +1,338 @@
+﻿using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Collections.Generic;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
+using ASHI.Customer.Business;
+
+public partial class ArticlePages_AboutUs_B2CC : System.Web.UI.Page,IRoutablePage
+{
+    public SiteSettings sitesetting = null;
+    public Utility oUtility = null;
+    int MicrowebsiteId = 1;
+    string SEODescription = string.Empty;
+    string SEOKeywords = string.Empty;
+    string SEOTitle = string.Empty;
+    public DataTable dt;
+
+    public System.Web.Routing.RequestContext requestContext;
+
+    public System.Web.Routing.RequestContext RequestContext
+    {
+        set { requestContext = value; }
+    }
+
+    
+    private string ClientURL
+    {
+        get
+        {
+            if (ViewState["ClientURL"] != null)
+            {
+                return ViewState["ClientURL"].ToString();
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+        set
+        {
+            ViewState["ClientURL"] = value;
+
+        }
+
+    }
+
+    #region variable and properties
+
+    protected string Address1 { get; set; }
+    protected string Address2 { get; set; }
+    protected string City { get; set; }
+    protected string State { get; set; }
+    protected string ZIP { get; set; }
+    protected string AboutUsHTML { get; set; }
+    protected string PromotionsHTML { get; set; }
+    protected string CompanyName { get; set; }
+    protected string Telephone1 { get; set; }
+    protected string Telephone2 { get; set; }
+    protected string EmailId { get; set; }
+    protected string BranchLocation { get; set; }
+
+    #endregion
+
+    protected string WebSiteURL 
+    {
+        get
+        {
+            if (ViewState["WebSiteURL"] != null)
+            {
+                string webURL = string.Empty;
+                webURL = ViewState["WebSiteURL"].ToString();
+
+                if (!string.IsNullOrEmpty(webURL))
+                {
+                    return (webURL != "" ? "Website: <a target='_blank' href='" + (webURL.StartsWith("http://") ? webURL : "http://" + webURL) + "'>"  + webURL   + "</a>" : "");
+                }
+                else
+                {
+                    return string.Empty;
+                }
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+        set
+        {
+            ViewState["WebSiteURL"] = value;
+        }
+    }
+    
+    protected string StoreHours1 { get; set; }
+    protected string StoreHours2 { get; set; }
+    protected string StoreHours3 { get; set; }
+    public string StoreImagePath { get; set; }
+    public string clientURL = "";
+    
+
+    #region UI Event handlers
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+        MicrowebsiteId = Constants.MicrowebsiteId;
+        if (!IsPostBack)
+        {
+            //oUtility = new Utility();
+            //sitesetting = oUtility.intializeSiteSetting();
+            SetSEOProperies();
+        }
+        if (string.IsNullOrEmpty(PromotionsHTML))
+        {
+            lblHeadPromotion.Visible = false;
+        }
+        else
+        {
+            lblHeadPromotion.Visible = true;
+        }
+
+        clientURL = Convert.ToString(RouteValue("CLIENT_URL"));
+
+        FillDefaultValue();
+    }
+
+ 
+
+    protected void Page_PreInit(object sender, EventArgs e)
+    {
+        string clientLogo = string.Empty;
+
+
+
+        //if (!IsPostBack)
+        //{
+
+            string clientURL = Convert.ToString(RouteValue("CLIENT_URL"));
+            DataTable dt = GetJewelerInfo(clientURL);
+            if (dt.Rows.Count > 0)
+            {
+                clientLogo = dt.Rows[0]["CompanyLogo"].ToString();
+                CompanyName = dt.Rows[0]["CompanyName"].ToString();
+                Address1 = dt.Rows[0]["Address1"].ToString();
+                Address2 = dt.Rows[0]["Address2"].ToString();
+                City = dt.Rows[0]["City"].ToString();
+               
+                string stateAbbriviation = string.Empty;
+
+                stateAbbriviation = dt.Rows[0]["StateName"].ToString();
+                BranchLocation = String.IsNullOrEmpty(Convert.ToString(dt.Rows[0]["BranchLocation"])) ? String.Empty : Convert.ToString(dt.Rows[0]["BranchLocation"]);
+                if (!string.IsNullOrEmpty(stateAbbriviation))
+                {
+                    char[] sep = new char[] { '-' };
+                    string[] split = stateAbbriviation.Split(sep);
+
+                    State = split[0];
+                }
+
+                ZIP = dt.Rows[0]["ZipCode"].ToString();
+                Telephone1 = dt.Rows[0]["TelePhone1"].ToString();
+
+                if (!string.IsNullOrEmpty(dt.Rows[0]["TelePhone2"].ToString()))
+                {
+                    Telephone2 = "Tel: " + dt.Rows[0]["TelePhone2"].ToString();
+                }
+                else
+                {
+                    Telephone2 = string.Empty;
+                }
+                
+                EmailId = dt.Rows[0]["EmailId"].ToString();
+                AboutUsHTML = dt.Rows[0]["AboutUsHtml"].ToString();
+                AboutUsHTML = ReplaceVariables(AboutUsHTML);
+                PromotionsHTML = dt.Rows[0]["PromotionHtml"].ToString();
+                WebSiteURL = dt.Rows[0]["WebSiteUrl"].ToString();
+                StoreHours1 = dt.Rows[0]["StoreHours1"].ToString();
+                StoreHours2 = dt.Rows[0]["StoreHours2"].ToString();
+                StoreHours3 = dt.Rows[0]["StoreHours3"].ToString();
+                StoreImagePath = dt.Rows[0]["StoreLogo"].ToString();
+
+                if (dt != null && dt.Rows.Count > 0)
+                {
+                    Page.MasterPageFile = "../MasterPage.master";
+                //    ((Image)Master.FindControl("ClientLogoUrl")).ImageUrl = clientLogo;
+                    this.Title = dt.Rows[0]["CompanyName"].ToString() + " - I Do Collection: About Us";
+                }
+            }
+       // }
+    }
+    #endregion
+
+    #region Methods
+
+    protected object RouteValue(string key)
+    {
+        if (requestContext != null && requestContext.RouteData != null)
+        {
+            return requestContext.RouteData.Values[key];
+        }
+        return null;
+    }
+
+
+
+    //private DataTable GetJewelerInfo(string clientName)
+    //{
+        
+    //    return new JewelerInfoManager().GetJewelerInfo(clientName);
+    //}
+
+
+    protected void dtlAboutUsMultipleStore_ItemDataBound(object sender, DataListItemEventArgs e)
+    {
+
+
+        if (e.Item.ItemType == ListItemType.Item || e.Item.ItemType == ListItemType.AlternatingItem)
+        {
+
+        } 
+    }
+
+    private void FillDefaultValue()
+    {
+        //dt = objAdminManager.
+
+        DataTable dt = GetJewelerInfo(clientURL);
+        dtlAboutUsMultipleStore.DataSource = dt;
+        dtlAboutUsMultipleStore.DataBind();
+
+
+        displayStoreHoursText.InnerText = ( (dt.Rows.Count > 1) ? "Main " : "" ) + "STORE LOCATION & HOURS" ; 
+    }
+
+  
+
+    #endregion
+
+    #region SEO Tags
+    private void SetSEOProperies()
+    {
+        oUtility = new Utility();
+        sitesetting = oUtility.intializeSiteSetting();
+        var ClientURL = sitesetting.CLIENTURL;
+        var CompanyName = SiteSettings.COMPANY_NAME;
+        if (MicrowebsiteId == 1)
+        {
+            SEODescription = "Exquisite collection of elegant bridal sets, engagement rings, semi mounts and wedding bands from ASHI. ";
+            SEOKeywords = "";
+            SEOTitle = Constants.Global_Website_Name + ": Bridal Jewelry Creations - Nobody Does I Do Like We Do | About I Do";
+        }
+        if (MicrowebsiteId == 2)
+        {
+            
+            SEOKeywords = "";
+
+            if (ClientURL != null)
+            {
+                SEOTitle = Constants.Global_Website_Name + ": Learn more about " + CompanyName.ToString();
+                SEODescription = Constants.Global_Website_Name + ": Learn more about " + CompanyName.ToString();
+
+            }
+            else
+            {
+                SEOTitle = Constants.Global_Website_Name + " - Learn more about ASHI - Premier Bridal & Diamond Fashion Jewelry Manufacturer";
+                SEODescription = Constants.Global_Website_Name + " - Learn more about ASHI - Premier Bridal & Diamond Fashion Jewelry Manufacturer.";
+            }
+        }
+        if (MicrowebsiteId == 3)
+        {
+
+            SEOKeywords = "";
+
+            if (ClientURL != null)
+            {
+                SEOTitle = "Learn more about " + CompanyName.ToString() + " - Premier Bridal & Diamond Fashion Jewelry Retailer";
+                SEODescription = "Learn more about " + CompanyName.ToString() + " - Premier Bridal & Diamond Fashion Jewelry Retailer."; 
+
+            }
+            else
+            {
+                SEOTitle = "Learn more about ASHI - Premier Bridal & Diamond Fashion Jewelry Manufacturer";
+                SEODescription = "Learn more about ASHI - Premier Bridal & Diamond Fashion Jewelry Manufacturer.";
+            }
+        }
+        if (MicrowebsiteId == 4)
+        {
+            
+            SEOKeywords = "";
+
+            if (ClientURL != null)
+            {
+                SEOTitle = Constants.Global_Website_Name + ": Learn more about " + CompanyName.ToString();
+                SEODescription = Constants.Global_Website_Name + ": Learn more about " + CompanyName.ToString();
+            }
+            else
+            {
+                SEOTitle = Constants.Global_Website_Name + " - Learn more about ASHI - Premier Bridal & Diamond Fashion Jewelry Manufacturer";
+                SEODescription = Constants.Global_Website_Name + " - Learn more about ASHI - Premier Bridal & Diamond Fashion Jewelry Manufacturer.";
+            }
+        }
+        if (MicrowebsiteId == 5)
+        {
+            SEODescription = "Shop our 925 Sterling " +Constants.Global_Website_Name + " for Diamond, Gemstone and Fashion Jewelry that includes Matching Rings, Pendants, Earrings and Bracelets.";
+            SEOKeywords = "";
+
+            if (ClientURL != null)
+            {
+                SEOTitle = CompanyName.ToString() + " : Shop our 925 Sterling " +Constants.Global_Website_Name + " for Diamond, Gemstone and Fashion Jewelry";
+            }
+            else
+            {
+                SEOTitle = "Shop our 925 Sterling " +Constants.Global_Website_Name + " for Diamond, Gemstone and Fashion Jewelry";
+            }
+        }
+        Page.MetaDescription = SEODescription;
+        Page.MetaKeywords = SEOKeywords;
+        Page.Title = ReplaceVariables(SEOTitle);
+    }
+
+    string ReplaceVariables(string str)
+    {
+        str = str.Replace("$COMPANY_NAME$", SiteSettings.COMPANY_NAME);
+        str = str.Replace("$COMPANY_STATE$", SiteSettings.STATENAME);
+        //   str = str.Replace("$COMPANY_CITY$", SiteSettings.CITY);
+        //  str = str.Replace("$YEARS_IN_BUSINESS$", sitesetting.YRS_IN_BUSINESS);
+        return str;
+    }
+
+    #endregion
+}
+
+
+
+   

@@ -1,0 +1,4 @@
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Release\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Release\Microsoft.ApplicationBlocks.Data.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Release\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Release\Microsoft.ApplicationBlocks.Data.pdb

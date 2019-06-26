@@ -1,0 +1,80 @@
+C:\ASHI\IDoCollection_Avinash\BabyBridals_SVN\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\ASHI\IDoCollection_Avinash\BabyBridals_SVN\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\ASHI\IDoCollection_Avinash\BabyBridals_SVN\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\ASHI\IDoCollection_Avinash\BabyBridals_SVN\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\ASHI\IDoCollection_Avinash\BabyBridals_SVN\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\ASHI\IDoCollection_Avinash\IDoCollection\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\ASHI\IDoCollection_Avinash\IDoCollection\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\ASHI\IDoCollection_Avinash\IDoCollection\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\ASHI\IDoCollection_Avinash\IDoCollection\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\ASHI\IDoCollection_Avinash\IDoCollection\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\ASHI\ASHI_IDOCOLLECTION\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\ASHI\ASHI_IDOCOLLECTION\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\ASHI\ASHI_IDOCOLLECTION\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\ASHI\ASHI_IDOCOLLECTION\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\ASHI\ASHI_IDOCOLLECTION\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\ResolveAssemblyReference.cache
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\ajay\AshiMicroB2C\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\ajay\AshiMicroB2C\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.csprojResolveAssemblyReference.cache
+E:\ajay\AshiMicroWSSetup\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\ajay\AshiMicroWSSetup\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\ajay\AshiMicroWSSetup\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\ajay\AshiMicroWSSetup\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.csprojResolveAssemblyReference.cache
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.csprojResolveAssemblyReference.cache
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.csprojResolveAssemblyReference.cache
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.csprojResolveAssemblyReference.cache
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.csprojResolveAssemblyReference.cache
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.csprojResolveAssemblyReference.cache
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\bin\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Microsoft.ApplicationBlocks.Data\obj\Debug\Microsoft.ApplicationBlocks.Data.csprojResolveAssemblyReference.cache

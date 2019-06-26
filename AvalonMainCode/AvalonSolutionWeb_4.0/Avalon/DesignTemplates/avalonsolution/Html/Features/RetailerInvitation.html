@@ -1,0 +1,322 @@
+﻿<div class="container ProductFeed">
+
+    <h2>Request Your Supplier for Product Feed</h2>
+    <div id="invitationdiv" style="display:block;">
+        <div class="col-sm-12 col-md-12 nopadding add_edit_info wow fadeInUp">
+            <input type="hidden" id="hdRetailerId" />
+            <div class="heading col-xs-12 col-sm-12 nopadding">
+                <h3>Retailer's Company Info</h3>
+            </div>
+            <div class="details col-sm-12 col-xs-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 pull-left">
+                    <!-- Text input-->
+                    <div class="form-group col-sm-12 nopadding">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r text-right">*Company Name:</label>
+                        <div class="col-sm-8 col-md-8">
+                            <input type="text" class="form-control" id="Retailercompname" maxlength="50" placeholder="Company Name" />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12 nopadding text-right">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r">*City | *State | *Zip :</label>
+                        <div class="col-sm-3 col-md-3">
+                            <input type="text" class="form-control" id="RetailerCity" maxlength="50" placeholder="City" />
+                        </div>
+                        <div class="col-sm-3 col-md-3 select_drop nopadding_r marginBottom15-xs paddingRight15-xs">
+                            <select class="form-control" id="ddlRetailStates">
+                                <option value="">Select</option>
+                            </select>
+                            <input type="hidden" id="statehidden" />
+                        </div>
+                        <div class="col-sm-2 col-md-2  marginBottom15-xs paddingRight15-xs">
+                            <input type="text" class="form-control" id="RetailerZip" maxlength="10" placeholder="Zip" />
+                        </div>
+
+                    </div>
+
+                    <!--<div class="form-group col-sm-12 nopadding product_filter text-right">
+                        <div class="col-sm-12 nopadding">
+                            <label class="col-sm-3 col-md-3 control-label nopadding_r">*State | *Zip :</label>
+                            <div class="col-sm-3 col-md-3 select_drop nopadding_r marginBottom15-xs paddingRight15-xs">
+                                <select class="form-control" id="ddlRetailStates">
+                                    <option value="">Select</option>
+                                </select>
+                                <input type="hidden" id="statehidden" />
+                            </div>
+
+
+                            <div class="col-sm-2 col-md-2 nopadding_r marginBottom15-xs paddingRight15-xs">
+                                <input type="text" class="form-control" id="RetailerZip" maxlength="10" placeholder="Zip" />
+                            </div>
+                        </div>
+                    </div>-->
+
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r text-right">Telephone:</label>
+                        <div class="col-sm-3 col-md-3 nopadding_r">
+                            <input type="tel" class="form-control phoneno1" id="RetailerPhone" maxlength="10" onkeydown="return (event.keyCode!=13);" placeholder="Telephone" />
+                            <label id="lblTelephone" class="messageError" style="display:none"></label>
+                        </div>
+
+                        <label class="col-sm-1 col-md-1 control-label nopadding_r">Extn:</label>
+                        <div class="col-sm-4 col-md-4 nopadding_l paddingLeft15-xs">
+                            <input type="tel" class="form-control Retailer_TelExtn" id="RetailerPhoneExtn" maxlength="5" placeholder="Extn" />
+                        </div>
+                        <input type="hidden" id="hfphone1" />
+                    </div>
+
+
+
+
+                    <!--<div class="form-group col-sm-12 nopadding">
+                                  <label class="col-sm-3 col-md-3 control-label nopadding_r">Fax:</label>
+                                  <div class="col-sm-3 col-md-3 nopadding_r">
+                                      <input type="text" class="form-control" id="tbEditFaxNumber1" placeholder="Fax" maxlength="10" onkeydown="return (event.keyCode!=13);" onblur="return checkFax(this);" onmousedown="return checkFax(this);" />
+                                      <asp:Label ID="lblFax" CssClass="messageError"></asp:Label>
+                                      <label id="lblFax" class="messageError " style="display:none"></label>
+                                  </div>
+                              </div>-->
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label for="email" class="col-sm-3 col-md-3 control-label nopadding_r text-right">*Email:</label>
+                        <div class="col-sm-8 col-md-8">
+                            <input type="email" class="form-control" id="RetailerEmailID" onkeydown="return (event.keyCode!=13);" placeholder="Email Id" />
+                            <!--<asp:requiredfieldvalidator id="rfvEmail1" controltovalidate="RetailerEmailID" display="Dynamic"></asp:requiredfieldvalidator>
+                            <asp:regularexpressionvalidator id="regexpValidEmail" cssclass="messageError" errormessage="Invalid email id" controltovalidate="RetailerEmailID" validationexpression="^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;.](([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+)*$"></asp:regularexpressionvalidator>-->
+                            <span id="errEmailRetailer" class="messageError"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label for="domain_nameTextBox" class="col-sm-3 col-md-3 control-label nopadding_r text-right">Website:</label>
+                        <div class="col-sm-8 col-md-8">
+                            <input type="text" class="form-control" id="RetailerWebsite" placeholder="Domain Name" />
+                            <span id="urlerror" class="messageError" style="display:none;"></span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-sm-12 col-md-12 nopadding add_edit_info wow fadeInUp">
+            <input type="hidden" id="hdRetailerId" />
+            <div class="heading col-xs-12 col-sm-12 nopadding">
+                <h3>Supplier's Info</h3>
+            </div>
+            <div class="details col-sm-12 col-xs-12">
+                <div class="col-xs-12 col-sm-12 col-md-12 pull-left">
+                    <!-- Text input-->
+                    <div class="form-group col-sm-12 nopadding">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r text-right">*Company Name:</label>
+                        <div class="col-sm-8 col-md-8">
+                            <input type="text" class="form-control" id="SupplierCompName" maxlength="50" placeholder="Company Name" />
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group col-sm-12 nopadding text-right">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r">*City | *State | *Zip :</label>
+                        <div class="col-sm-3 col-md-3">
+                            <input type="text" class="form-control" id="SupplierCity" maxlength="50" placeholder="City" />
+                        </div>
+                        <div class="col-sm-3 col-md-3 select_drop nopadding_r marginBottom15-xs paddingRight15-xs">
+                            <select class="form-control" id="ddlSupplierStates">
+                                <option value="">Select</option>
+                            </select>
+                            <input type="hidden" id="statehidden" />
+                        </div>
+                        <div class="col-sm-2 col-md-2  marginBottom15-xs paddingRight15-xs">
+                            <input type="text" class="form-control" id="SupplierZip" maxlength="10" placeholder="Zip" />
+                        </div>
+                    </div>
+
+                    <!--<div class="form-group col-sm-12 nopadding product_filter text-right">
+                        <div class="col-sm-12 nopadding">
+                            <label class="col-sm-3 col-md-3 control-label nopadding_r">*State | *Zip :</label>
+                            <div class="col-sm-3 col-md-3 select_drop nopadding_r marginBottom15-xs paddingRight15-xs">
+                                <select class="form-control" id="ddlSupplierStates">
+                                    <option value="">Select</option>
+                                </select>
+                                <input type="hidden" id="statehidden" />
+                            </div>
+
+
+                            <div class="col-sm-2 col-md-2 nopadding_r marginBottom15-xs paddingRight15-xs">
+                                <input type="text" class="form-control" id="SupplierZip" maxlength="10" placeholder="Zip" />
+                            </div>
+                            
+                        </div>
+                    </div>-->
+
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r text-right">Telephone:</label>
+                        <div class="col-sm-3 col-md-3 nopadding_r paddingRight15-xs">
+                            <input type="tel" class="form-control phoneno1" id="SupplierPhone" maxlength="10" onkeydown="return (event.keyCode!=13);" placeholder="Telephone" />
+                            <label id="lblTelephone" class="messageError" style="display:none"></label>
+                        </div>
+
+                        <label class="col-sm-1 col-md-1 control-label nopadding_r">Extn:</label>
+                        <div class="col-sm-4 col-md-4 nopadding_l paddingLeft15-xs">
+                            <input type="tel" class="form-control Retailer_TelExtn" id="SupplierPhoneExtn" maxlength="5" placeholder="Extn" />
+                        </div>
+                        <input type="hidden" id="hfphone1" />
+                    </div>
+
+
+
+
+                    
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label for="email" class="col-sm-3 col-md-3 control-label nopadding_r text-right">*Email:</label>
+                        <div class="col-sm-8 col-md-8">
+                            <input type="email" class="form-control" id="SupplierEmailId" onkeydown="return (event.keyCode!=13);" placeholder="Email Id" />
+                            <!--<asp:RequiredFieldValidator ID="rfvEmail1" ControlToValidate="email" Display="Dynamic"></asp:RequiredFieldValidator>
+                            <asp:regularexpressionvalidator id="regexpValidEmail" cssclass="messageError" errormessage="Invalid email id" controltovalidate="SupplierEmailId" validationexpression="^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;.](([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+)*$"></asp:regularexpressionvalidator>-->
+                            <span id="errEmailSupplier" class="messageError"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label for="domain_nameTextBox" class="col-sm-3 col-md-3 control-label nopadding_r text-right">Website:</label>
+                        <div class="col-sm-8 col-md-8">
+                            <input type="text" class="form-control" id="SupplierWebsite" placeholder="Domain Name" />
+                            <span id="urlerror" class="messageError" style="display:none;"></span>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-sm-12 col-md-12 nopadding add_edit_info wow fadeInUp">
+            <div class="heading col-xs-12 col-sm-12 nopadding">
+                <h3>Supplier’s Contact Person Info</h3>
+            </div>
+            <div class="details col-sm-12 col-xs-12">
+
+
+                <div class="col-xs-12 col-sm-12 col-md-12 pull-left">
+                    <!-- Text input-->
+                    <div class="form-group col-sm-12 nopadding product_filter">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r text-right">Title:</label>
+                        <div class="col-sm-8 col-md-8 select_drop">
+                            <select class="form-control" id="SupplierContPerTitle">
+                                <option value="Select">Select</option>
+                                <option value="Ms.">Ms.</option>
+                                <option value="Mr.">Mr.</option>
+                                <option value="Mrs.">Mrs.</option>
+                                <option value="Miss">Miss</option>
+                                <option value="Dr.">Dr.</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r text-right">Name:</label>
+                        <div class="col-sm-8 col-md-8">
+                            <input type="text" maxlength="50" class="form-control" id="SupplierContName" placeholder="Name" />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12 nopadding product_filter">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r text-right">Position:</label>
+                        <div class="col-sm-8 col-md-8 select_drop">
+                            <select class="form-control" id="SupplierContPos">
+                                <option value="Select">Select</option>
+                                <option value="Partner">Partner</option>
+                                <option value="Director">Director</option>
+                                <option value="CEO">CEO</option>
+                                <option value="President">President</option>
+                                <option value="V. President">V. President</option>
+                                <option value="Store Manager">Store Manager</option>
+                                <option value="Marketing Manager">Marketing Manager</option>
+                                <option value="Technology Manager">Technology Manager</option>
+                                <option value="Account Manager">Account Manager</option>
+                                <option value="Customer Service Manager">Customer Service Manager</option>
+                                <option value="Store Staff">Store Staff</option>
+                                <option value="Advertising Agency">Advertising Agency</option>
+                                <option value="Consultant">Consultant</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label for="Mobile" class="col-sm-3 col-md-3 control-label nopadding_r text-right">Mobile Number:</label>
+                        <div class="col-sm-8 col-md-8">
+                            <input type="tel" class="form-control" id="SupplierContMob" maxlength="10" placeholder="Mobile Number" />
+                        </div>
+
+                    </div>
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label for="Email1" class="col-sm-3 col-md-3 control-label nopadding_r text-right">Email:</label>
+                        <div class="col-sm-8 col-md-8">
+                            <input type="email" class="form-control" id="SupplierContEmailId" onkeydown="return (event.keyCode!=13);" placeholder="Email Id" />
+                            <!--<asp:requiredfieldvalidator id="RequiredFieldValidator1" controltovalidate="SupplierContEmailId" display="Dynamic"></asp:requiredfieldvalidator>
+                            <asp:regularexpressionvalidator id="RegularExpressionValidator1" cssclass="messageError"
+                                                            errormessage="Invalid email id" controltovalidate="SupplierContEmailId"
+                                                            validationexpression="^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;.](([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+)*$" forecolor="Red"></asp:regularexpressionvalidator>-->
+                            <label id="errEmailContSupplier" class="messageError"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-sm-12 col-md-12 nopadding add_edit_info wow fadeInUp">
+            
+            <div class="details col-sm-12 col-xs-12 marginBottom40">
+                <div class="col-xs-12 col-sm-12 col-md-12 pull-left">
+                    
+                    <div class="form-group col-sm-12 nopadding seo_meta_key">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r text-right">Comments:</label>
+                        <div class="col-sm-8 col-md-8">
+                            <textarea class="form-control" maxlength="300" style="resize: none" rows="4" id="txtcommentSuppReq" columns="45" value=""></textarea>
+                            <div id="txtComment_txtcommentSuppReq" class="pull-right"></div>
+                            <input type="hidden" id="commentext" />
+                        </div>
+                    </div>
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label class="col-sm-3 col-md-3 control-label nopadding_r text-right" id="lblCaptcha">*Captcha:</label>
+                        <div class="g-recaptcha col-sm-8 col-xs-12" data-sitekey="6LfgECETAAAAAIbvpAb3nx1TFOd5V_vwrxJzCxsF"></div>
+                        <div class="clearfix"></div>
+                        <span id="spcaptcha" class="messageError col-xs-2 col-sm-2 col-sm-offset-3"></span>
+                    </div>
+
+                    <div class="form-group col-sm-12 nopadding">
+                        <label class="col-sm-3 col-md-3 control-label" for="save"></label>
+                        <div class="col-sm-9 col-md-4">
+                            <!--<a href='www.google.com' id="requestbtn" class="btn btn-signup" onclick="return frmValidate();" onserverclick="btnSave">Send Invitation</a>-->
+                            <a href="javascript:void(0)" class="btn btn-signup" id="btnSendInvitation"><span>Send Invitation</span></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="confirmdiv" style="display:none;">
+        <p style="text-align:center;"> Your Invitation Send Successfully</p>
+    </div>
+
+    <div style="clear:both;"></div>
+</div>

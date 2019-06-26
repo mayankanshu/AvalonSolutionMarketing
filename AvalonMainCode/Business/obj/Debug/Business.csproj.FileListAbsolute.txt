@@ -1,0 +1,72 @@
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.pdb
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.pdb
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.pdb
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.pdb
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.pdb
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.pdb
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive 29-04-2016 (Mayank Sir Backup)\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive 29-04-2016 (Mayank Sir Backup)\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive 29-04-2016 (Mayank Sir Backup)\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive 29-04-2016 (Mayank Sir Backup)\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive 29-04-2016 (Mayank Sir Backup)\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive 29-04-2016 (Mayank Sir Backup)\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\Pravin\Projects\AvalonSolution_MktgResponsive 29-04-2016 (Mayank Sir Backup)\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive 29-04-2016 (Mayank Sir Backup)\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\mayankpatni\Desktop\avalonSolutionMarketing 29 April\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.dll
+C:\Users\mayankpatni\Desktop\avalonSolutionMarketing 29 April\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.pdb
+C:\Users\mayankpatni\Desktop\avalonSolutionMarketing 29 April\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.dll
+C:\Users\mayankpatni\Desktop\avalonSolutionMarketing 29 April\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\mayankpatni\Desktop\avalonSolutionMarketing 29 April\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.pdb
+C:\Users\mayankpatni\Desktop\avalonSolutionMarketing 29 April\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\mayankpatni\Desktop\avalonSolutionMarketing 29 April\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.dll
+C:\Users\mayankpatni\Desktop\avalonSolutionMarketing 29 April\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.pdb
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.pdb
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.pdb
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.pdb
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.pdb
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.pdb
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.pdb
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Business.pdb
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\bin\Debug\Factories.pdb
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Business\obj\Debug\Business.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Business\bin\Debug\Business.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Business\bin\Debug\Business.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Business\bin\Debug\Factories.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Business\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Business\bin\Debug\Factories.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Business\obj\Debug\Business.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Business\obj\Debug\Business.pdb

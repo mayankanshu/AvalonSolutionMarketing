@@ -1,0 +1,69 @@
+﻿<div class="container"> <div class="row">
+    <article>
+        <!--<article class="nav_main">-->
+
+
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+
+                <div class="navbar-header">
+                    <ul class="nav_icons col-xs-12 col-sm-12 col-md-12 col-lg-12 hidden-sm hidden-md hidden-lg">
+                        <li style="width: 18%;">
+                            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+                            <button type="button" id="menu-btn-click" class="menu-btn navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </li>
+                        <li class="search-flip"><a href="#"><i class="fa fa-search"></i></a></li>
+                        {#if $P.ClientUrl !="" && $P.ClientUrl != null}
+                        <li><a href="{$P.MobileLocationPageURL}"><i class="fa fa-map-marker"></i></a></li>
+                        <li><a href="{$P.MobileWishListPageURL}"><i class="fa fa-gift"></i></a></li>
+                        <li><a href="{$P.MobileContactUsPageURL}"><i class="fa fa-phone"></i></a></li>
+                        {#else}
+                        <li><a href="{$P.MobileLoginPageURL}"><i class="fa fa-user"></i></a></li>
+                        <li><a href="{$P.MobileWishListPageURL}"><i class="fa fa-gift"></i></a></li>
+                        <li><a href="{$P.MobileContactUsPageURL}"><i class="fa fa-phone"></i></a></li>
+                        <li><a href="{$P.MobileShoppingBagPageURL}"><i class="fa fa-shopping-cart"></i></a></li>
+                        {#/if}
+                        {#if $P.ClientUrl !="" && $P.ClientUrl != null && $P.isShowShopping != 'False'}
+                        <li><a href="{$P.MobileShoppingBagPageURL}"><i class="fa fa-shopping-cart"></i></a></li>
+                        {#/if}
+                    </ul>
+                </div>
+
+                <div class="navbar-collapse collapse navbar-ex1-collapse">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <ul class="nav navbar-nav">
+                            <li name="Home" class="{#if $P.Webnavurl.toLowerCase()==$P.HomePageURL.toLowerCase()}active {#/if} hidden-xs  home_icon">
+                                <a href="{$P.HomePageURL}"><span><i class="fa fa-home"></i></span></a>
+                                <!-- style="padding: 0px; margin: 2px 6px 0 0;-->
+                                <!--   <a href="{$P.HomePageURL}"  class="{#if $P.Webnavurl.toLowerCase()==$P.HomePageURL.toLowerCase()}active{#/if} home-link hidden-xs"><i class="fa fa-home"></i></a>-->
+                            </li>
+                            {#foreach $T as rows}
+                            <li name="{$T.rows.id}" class="{#if $P.Webnavurl.toLowerCase()==$T.rows.href.toLowerCase()}active{#/if}"><a id="Menu_{$T.rows.id}" href="{$T.rows.href}"><span>{$T.rows.MenuName}</span></a></li>
+                            {#/for}
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+
+    </article>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="container searchbox-panel">
+    <div class="col-xs-12 searchbox">
+        <div id="search">
+            <form action="#" onsubmit="return false;" method="get">
+                <input id="txtSearchM" onfocus="if (this.value =='Search Products' ) this.value=''" onblur="if (this.value=='') this.value='Search Products'" value="Search Products" name="q" type="text" />
+                <a class="fa fa-search" id="btnSearchM" href="#"></a>
+            </form>
+        </div>
+
+    </div>
+</div>

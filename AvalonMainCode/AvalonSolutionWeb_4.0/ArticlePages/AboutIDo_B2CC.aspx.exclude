@@ -1,0 +1,121 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AboutIDo_B2CC.aspx.cs" MasterPageFile="~/MasterPage.master"  Inherits="ArticlePages_AboutIDo_B2CC" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+     <!--Added Js to Call Master Template-->
+    <script type="text/javascript" src="<%=Constants.AvalonDataDesinTemplatesPath%>Js/MasterPage/Template.js"></script>
+    <script type="text/javascript" src="<%=Constants.AvalonDataDesinTemplatesPath%>Js/AboutUsPage/AboutIDO_B2CC.js"></script>
+
+</asp:Content>
+
+<%--<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="Server">
+</asp:Content>--%>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+
+    <div class="container">
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div id="AboutIDO"></div>
+       
+    </div>
+</div>
+</div>
+    <%--<div class="MiddleContent MiddleContentColoredBack">
+        <div class="ArticleHeader">
+            <div class="ArticleHead">
+               A<span style="font-size: 16px;">BOUT</span>
+               I D<span style="font-size: 16px;">O</span>
+               C<span style="font-size: 16px;">OLLECTION</span>
+            </div>
+            <div class="ArticleLogo">
+                <img alt="" src="<%=Constants.Images %>/About_IDoLogo.png" />
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <div class="ContactMid">
+            <div class="ArticleInn1">
+                <!--<div class="ArticLeft" style="padding: 20px 0 0 0;">
+                    <p>
+                        <img alt="Bridal Engagement Ring" title="Bridal Engagement Ring" src="<%=Constants.Images %>/BridalEngagementRingSet.gif" />
+                    </p>
+                    <p>
+                        <img alt="Diamond Engagement Ring" title="Diamond Engagement Ring" src="<%=Constants.Images %>/AverageSizeDiamondRing.gif" />
+                    </p>
+                    <p style="margin: 0;">
+                        <img alt="Swiss Gem Lab Certificate" title="Swiss Gem Lab Certificate" src="<%=Constants.Images %>/JewelryCertificate.gif" />
+                    </p>
+                </div>-->
+                <div class="ArticRight" style="width:965px;">
+                    <p>
+                        Celebrate your everlasting love for one another and mark your lifetime of commitment
+                        together in style with a beautiful bridal engagement ring set from our <strong>I Do
+                            Collection</strong>.
+                    </p>
+                    <p>
+                        The <strong>I Do Collection</strong> features an wide range of affordable yet
+                        elegant bridal sets, engagement rings, semi mounts and wedding bands from ASHI.
+                        ASHI's attention to detail culminates in the creation of a true treasure that reflects
+                        the symbol of love and beauty this collection represents. The collection includes
+                        exquisitely hand crafted bridal rings in three exciting styles: contemporary, traditional
+                        and vintage.
+                    </p>
+                    <p>
+                        This one-of-a-kind line showcases more than 1,000 exclusive bridal designs. All complete
+                        Bridal Sets in the <strong>I Do Collection</strong> have a beautiful center diamond
+                        in a variety of popular shapes ranging in size from 1/5 carat to 7/8 carat; with
+                        total diamond weights ranging from 1/2ctw to 2.00ctw. With complete sets priced
+                        from $1,495 to $6,995, the <strong>I Do Collection</strong> offers a one-stop-shop
+                        for all your bridal engagement ring needs and provides an exceptional value for
+                        today's brides and grooms.
+                    </p>
+                    <p>
+                        Our latest Bridal Collection - <strong>Bridal Our Tradition </strong>showcases
+                        today’s most innovative new styling with bold and definitive designer looks, market
+                        tested and proven products, and resurgence of traditional styles, re-crafted by
+                        our in-house craftsmen into new classics for the bridal category.
+                    </p>
+                    
+                    <p>
+                        In addition to including a wide selection of breathtaking designs to suite any bride's
+                        fancy, the <strong>I Do Collection</strong> also features a superior level of
+                        craftsmanship that is truly amazing – each bridals set is meticulously hand finished
+                        from polishing to diamond setting, millgraining and scrolled engraving. In fact,
+                        the <strong>I Do Collection</strong> has the kind of exclusive, head-turning design,
+                        craftsmanship and diamond quality that can only be found among high-end diamond
+                        jewelry brands sold in upscale jewelry boutiques. You won't find the exclusive <strong>
+                            I Do Collection</strong>  in the large mall jewelry chains, department stores
+                        or mass merchants – but the collection is available in independent jewelry stores
+                        around the country. Making the commitment to buy your Bridal Engagement Set from
+                        the <strong>I Do Collection</strong>  means getting an AMAZING upscale, designer
+                        branded look at a fantastic price!
+                    </p>
+                    
+                    <p>
+                        As an added bonus, each complete Bridal Engagement set in the <strong>I Do Collection</strong>
+                         comes with an exclusive diamond jewelry certificate from Swiss Gemological Laboratory,
+                        giving you peace of mind and confidence with your Bridal Engagement purchase. You
+                        can also go online to track, view, zoom, print or email your unique jewelry certificate,
+                        as well as visit the store's website where you made the purchase. This unique certification
+                        system shows that your bridal jewelry was graded by an independent gemological laboratory.
+                        It also provides tangible proof of your diamond jewelry's identity, quality and
+                        authenticity for insurance/appraisal purposes to protect your investment should
+                        your jewelry ever be lost, stolen or damaged.
+                    </p>
+                    <p style="padding: 0; margin: 0;">
+                        Beauty. Craftsmanship. Quality. Fashion. Value. The <strong>I Do Collection</strong>
+                        has it all. So when it's time to say <strong>I Do,</strong> say it with one of
+                        our beautiful <strong>I Do</strong> bridal jewelry creations. Because, <strong>Nobody
+                            Does "I Do" Like We Do!</strong>
+                    </p>
+                </div>
+                <div style="clear: both;">
+                </div>
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+        <div style="clear: both;">
+        </div>
+    </div>--%>
+</asp:Content>

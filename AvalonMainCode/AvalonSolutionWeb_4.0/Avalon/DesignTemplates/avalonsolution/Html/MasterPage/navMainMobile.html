@@ -1,0 +1,83 @@
+<!-- Pushy Menu -->
+<div id="pushyhide"> 
+<nav id="" class="pushy pushy-left " role="navigation">
+  <div id="menu" class="mobile-sliding-menu">
+     
+    <ul>
+        <li> <a href="{$P.HomePageURL}" class="{#if $P.WebURL.toLowerCase()==$P.HomePageURL.toLowerCase()}selected{#/if}">HOME</a> </li>
+         <li> <a href="{$P.EngagementRings}" class="{#if $P.WebURL.toLowerCase()==$P.EngagementRings.toLowerCase()}selected{#/if}">ENGAGEMENT</a> 
+             <!--<ul>
+                 <li id="Li1"><a href="{$P.BridalSets}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.BridalSets.toLowerCase()}selected{#/if}">Bridal Sets</a></li>
+                 <li id="Li2"><a href="{$P.EngagementRings}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.EngagementRings.toLowerCase()}selected{#/if}">Engagement Rings</a></li>
+                 <li id="Li3"><a href="{$P.WeddingRing}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.WeddingRing.toLowerCase()}selected{#/if}">Wedding Rings</a></li>
+                 <li id="Li4"><a href="{$P.SemiMountRings}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.SemiMountRings.toLowerCase()}selected{#/if}">Semi Mount Rings</a></li>
+                 <li id="Li5"><a href="{$P.WrapInsertRings}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.WrapInsertRings.toLowerCase()}selected{#/if}">Wrap & Insert Rings</a></li>
+                 <li id="Li6"><a href="{$P.DiamondRings}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.DiamondRings.toLowerCase()}selected{#/if}">Diamond Rings</a></li>
+              </ul>-->
+        </li>
+        <li> <a href="{$P.Jewelry}" class="{#if $P.WebURL.toLowerCase()==$P.Jewelry.toLowerCase()}selected{#/if}">JEWELRY</a> 
+            <ul>
+                <li id="Li6"><a id="a2" href="{$P.Jewelry}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.Jewelry.toLowerCase()}selected{#/if}">JEWELRY</a></li>
+                   <li id="Li7"><a id="a1" href="{$P.BridalSets}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.BridalSets.toLowerCase()}selected{#/if}">Bridal Sets</a></li>
+                <li id="Li8"><a href="{$P.EngagementRings}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.EngagementRings.toLowerCase()}selected{#/if}">Engagement Rings</a></li>
+                <li id="Li9"><a href="{$P.WeddingRing}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.WeddingRing.toLowerCase()}selected{#/if}">Wedding Rings</a></li>
+                <li id="Li10"><a href="{$P.SemiMountRings}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.SemiMountRings.toLowerCase()}selected{#/if}">Semi Mount Rings</a></li>
+                <li id="Li11"><a href="{$P.WrapInsertRings}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.WrapInsertRings.toLowerCase()}selected{#/if}">Wrap & Insert Rings</a></li>
+                <li id="Li12"><a href="{$P.LovebrightRings}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.LovebrightRings.toLowerCase()}selected{#/if}">Lovebright Rings</a></li>
+                <li id="Li13"><a href="{$P.DiamondRings}" tabindex="-1" class="{#if $P.WebURL.toLowerCase()==$P.DiamondRings.toLowerCase()}selected{#/if}">Diamond Rings</a></li>
+            </ul>
+        </li>
+        <li> <a href="{$P.WhatsNewPageURL}" class="{#if $P.WebURL.toLowerCase()==$P.WhatsNewPageURL.toLowerCase()}selected{#/if}" >WHAT'S NEW</a> </li>
+        <li> <a href="{$P.MediaPageURL}" class="{#if $P.WebURL.toLowerCase()==$P.MediaPageURL.toLowerCase()}selected{#/if}">MEDIA</a> </li>
+        <li> <a href="{$P.EducationPageURL}" class="{#if $P.WebURL.toLowerCase()==$P.EducationPageURL.toLowerCase()}selected{#/if}">EDUCATION</a> </li>
+       <!-- <li> <a href="{$P.webRoot}/AboutIDO" class="{#if $P.WebURL.toLowerCase()=={$P.webRoot}/AboutIDO.toLowerCase()}selected{#/if}">ABOUT I Do</a> </li>-->
+         {#if $P.ClientUrl !="" && $P.ClientUrl != null}
+         <li> <a href="{$P.AboutUsPageURL}" class="{#if $P.WebURL.toLowerCase()==$P.AboutUsPageURL.toLowerCase()}selected{#/if}">ABOUT US</a> </li>
+        <li> <a href="{$P.ContactUsPageURL}" class="{#if $P.WebURL.toLowerCase()==$P.ContactUsPageURL.toLowerCase()}selected{#/if}">CONTACT US</a> </li>
+        {#else}
+        <li> <a href="{$P.AboutIDOB2C}" class="{#if $P.WebURL.toLowerCase()==$P.AboutIDOB2C.toLowerCase()}selected{#/if}">ABOUT I DO</a> </li>
+        <li> <a href="{$P.WhereToBuyPageURL}" class="{#if $P.WebURL.toLowerCase()==$P.WhereToBuyPageURL.toLowerCase()}selected{#/if}">WHERE TO BUY</a> </li>
+        {#/if}  
+<!--Condition for Ecatalog Main Header tab removed from Mobile Devices-->
+
+      
+            <!--{#foreach $T as rows}
+        <li name="{$T.rows.id}" class="{#if $P.Webnavurl==$T.rows.href}active{#/if}"><a id="Menu_{$T.rows.id}" href="{$T.rows.href}"><span>{$T.rows.MenuName}</span></a></li>
+        {#/for}-->
+
+
+
+
+
+
+
+
+
+        <!--{#if $T.menulevel0.SubMenus.length >0}
+                                   <ul>
+                                       <li class="mobile-sliding-main"><a href="{$T.menulevel0.FullMVCURL}" tabindex="-1">{$T.menulevel0.Name}</a></li>
+                                   {#foreach $T.menulevel0.SubMenus as menulevel1}
+                                   <li id="Li2">
+                                       <a href="{$T.menulevel1.FullMVCURL}" tabindex="-1">{$T.menulevel1.Name}</a>
+                                        {#if $T.menulevel1.ChildSubMenu.length > 0 && $T.menulevel1.ChildSubMenu.length != null}
+                                        <ul>
+                                            <li class="mobile-sliding-main"><a href="{$T.menulevel1.FullMVCURL}" tabindex="-1">{$T.menulevel1.Name}</a></li>
+                                           {#foreach $T.menulevel1.ChildSubMenu as menuleve2}
+                                             <li id="Li3"><a tabindex="-1"  href="{$T.menuleve2.FullMVCURL}">{$T.menuleve2.Name}</a></li>
+                                           {#/for}
+                                        </ul>
+                                        {#/if}
+                                  </li>
+                                  {#/for}
+                            </ul>
+                                {#/if}-->
+                          
+ 
+
+   </ul>
+     
+  </div>
+</nav> <div class="site-overlay"></div>
+</div> 
+
+

@@ -1,0 +1,198 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using ASHI.Customer.Business;
+
+public partial class ArticlePages_AboutIDo_B2CC : System.Web.UI.Page
+{
+    public SiteSettings sitesetting = null;
+    public Utility oUtility = null;
+    int MicrowebsiteId = 1;
+    string SEODescription = string.Empty;
+    string SEOKeywords = string.Empty;
+    string SEOTitle = string.Empty;
+
+    private string ClientURL
+    {
+        get
+        {
+            if (ViewState["ClientURL"] != null)
+            {
+                return ViewState["ClientURL"].ToString();
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+        set
+        {
+            ViewState["ClientURL"] = value;
+
+        }
+
+    }
+
+    #region IRoutablePage Members
+
+    public System.Web.Routing.RequestContext requestContext;
+
+    public System.Web.Routing.RequestContext RequestContext
+    {
+        set { requestContext = value; }
+    }
+
+    #endregion
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        MicrowebsiteId = Constants.MicrowebsiteId;
+        if (!IsPostBack)
+        {
+            //oUtility = new Utility();
+            //sitesetting = oUtility.intializeSiteSetting();
+            SetSEOProperies();
+        }
+    }
+
+    protected void Page_PreInit(object sender, EventArgs e)
+    {
+        //if (!IsPostBack)
+        //{
+            string clientLogo = string.Empty;
+            string clientURL = Convert.ToString(RouteValue("CLIENT_URL"));
+            DataTable dt = null;
+
+            dt = GetJewelerInfo(clientURL);
+
+            if (dt != null && dt.Rows.Count > 0)
+            {
+                clientLogo = dt.Rows[0]["CompanyLogo"].ToString();
+                ClientURL = dt.Rows[0]["URL"].ToString();
+            }
+
+            if (dt != null && dt.Rows.Count > 0)
+            {
+                Page.MasterPageFile = "../IDoCollectionB2CC.master";
+                ((Image)Master.FindControl("imgClientLogo")).ImageUrl = clientLogo;
+                this.Title = dt.Rows[0]["CompanyName"].ToString() + " - I Do Collection: Bridal Jewelry Creations - Nobody Does I Do Like We Do | About I Do";
+            }
+        //}
+    }
+
+    //private DataTable GetJewelerInfo(string clientName)
+    //{
+    //    return new JewelerInfoManager().GetJewelerInfo(clientName);
+    //}
+
+    protected object RouteValue(string key)
+    {
+        if (requestContext != null && requestContext.RouteData != null)
+        {
+            return requestContext.RouteData.Values[key];
+        }
+        return null;
+    }
+
+    #region SEO Tags
+    private void SetSEOProperies()
+    {
+        oUtility = new Utility();
+        sitesetting = oUtility.intializeSiteSetting();
+        //SiteSettings sitesetting = new SiteSettings();
+        var ClientURL = sitesetting.CLIENTURL;
+        var CompanyName = SiteSettings.COMPANY_NAME;
+        // string title ="";
+
+        if (MicrowebsiteId == 1)
+        {
+            SEODescription = Constants.Global_Website_Name + ": Diamond Bridal Sets, Engagement Rings & Wedding Bands";
+            SEOKeywords = "Google Checkout, Paypal Checkout, Order By Phone, Refer a Friend, Refer, Refer Your Friends, Refer Jewelry Website, Diamond Jewelry, Gemstone Jewelry, Bridal Jewelry, Engagement Rings, Pendants, Necklaces, Earrings, Bracelets, Loose Diamonds, Designer Jewelry, Designer Collection, Gifts by Occasions, Gifts, Presents, Ecatalogs, Special Offers, Specials, Gift Coupon, Exclusive Offers";
+            if (ClientURL != null)
+            {
+                // SEOTitle = "I Do Collection: Diamond Bridal Sets, Engagement Rings & Wedding Bands | Home Page";
+                SEOTitle = CompanyName.ToString() + " - " +Constants.Global_Website_Name + ": Diamond Bridal Sets, Engagement Rings & Wedding Bands";
+            }
+            else
+            {
+                SEOTitle = Constants.Global_Website_Name + ": Diamond Bridal Sets, Engagement Rings & Wedding Bands";
+            }
+        }
+        if (MicrowebsiteId == 2)
+        {
+            SEODescription = Constants.Global_Website_Name + " is Big, Beautiful and Affordable Luxury. A stunning collection that has made Buying Diamond Jewelry - Fashionable and Exciting Again!";
+            SEOKeywords = "";
+            if (ClientURL != null)
+            {
+                // SEOTitle = "I Do Collection: Diamond Bridal Sets, Engagement Rings & Wedding Bands | Home Page";
+                SEOTitle = "Shop our " +Constants.Global_Website_Name + " for Bridals, Rings, Pendants & Necklaces, Earrings, Bracelets & Bangles, Ensembles, Gemstone Jewelry at " + CompanyName.ToString();
+            }
+            else
+            {
+                SEOTitle = "Shop our " +Constants.Global_Website_Name + " for Bridals, Rings, Pendants & Necklaces, Earrings, Bracelets & Bangles, Ensembles, Gemstone Jewelry";
+            }
+        }
+        if (MicrowebsiteId == 3)
+        {
+            SEODescription = "Shop our " +Constants.Global_Website_Name + " for contemporary and traditional Diamond, Gemstone and Fashion Jewelry.";
+            SEOKeywords = "";
+            if (ClientURL != null)
+            {
+                // SEOTitle = "I Do Collection: Diamond Bridal Sets, Engagement Rings & Wedding Bands | Home Page";
+                SEOTitle = CompanyName.ToString() + " : Shop our " +Constants.Global_Website_Name+ " for Bridals, Rings, Pendants & Necklaces, Earrings, Bracelets & Bangles, Gemstone Jewelry";
+            }
+            else
+            {
+                SEOTitle = "Shop our " +Constants.Global_Website_Name+ " for Bridals, Rings, Pendants & Necklaces, Earrings, Bracelets & Bangles, Gemstone Jewelry";
+            }
+        }
+        if (MicrowebsiteId == 4)
+        {
+            SEODescription = "The " +Constants.Global_Website_Name + " features diamond jewelry set in breathtaking Two-Stone Designs that includes Rings, Pendants and Earrings.";
+            if (ClientURL != null)
+            {
+                // SEOTitle = "I Do Collection: Diamond Bridal Sets, Engagement Rings & Wedding Bands | Home Page";
+                SEOTitle = "Shop our " +Constants.Global_Website_Name + " for Magnificent Two-Stone Diamond Jewelry at " + CompanyName.ToString();
+            }
+            else
+            {
+                SEOTitle = Constants.Global_Website_Name + ": Magnificent Two-Stone Diamond Jewelry";
+            }
+        }
+        if (MicrowebsiteId == 5)
+        {
+            SEODescription = "Shop our 925 Sterling " +Constants.Global_Website_Name + " for Diamond, Gemstone and Fashion Jewelry that includes Matching Rings, Pendants, Earrings and Bracelets.";
+            if (ClientURL != null)
+            {
+                // SEOTitle = "I Do Collection: Diamond Bridal Sets, Engagement Rings & Wedding Bands | Home Page";
+                SEOTitle = CompanyName.ToString()+ ": Shop our 925 Sterling " +Constants.Global_Website_Name + " for Diamond, Gemstone and Fashion Jewelry";
+            }
+            else
+            {
+                SEOTitle = "Shop our 925 Sterling " +Constants.Global_Website_Name + " for Diamond, Gemstone and Fashion Jewelry";
+            }
+        }
+
+
+        Page.MetaDescription = SEODescription;
+        //  Page.MetaKeywords = SEOKeywords;
+        Page.Title = ReplaceVariables(SEOTitle);
+    }
+    string ReplaceVariables(string str)
+    {
+        str = str.Replace("$COMPANY_NAME$", SiteSettings.COMPANY_NAME);
+
+        return str;
+    }
+
+    #endregion
+}
+

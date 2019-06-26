@@ -1,0 +1,166 @@
+﻿<section class="banner TradeShowBanner">
+    <div class="container text-center">
+        <div class="BannerInner">
+            <h3 class="wow fadeInUp heading">Trade Shows</h3>
+            <h4 class="wow fadeInUp">Please Come Visit Us!</h4>
+            <p class="wow fadeInUp">Please come and visit us at the following Trade Show. Give us a Moment to show you how we Turn Browsers into Buyers&trade;</p>
+        </div>
+    </div>
+</section>
+
+<!-- Main Breadcrumb Code Start -->
+<section class="pagination">
+    <div class="container">
+        <ul class="breadcrumb">
+            <li><a href="{$P.HomePageURL}/index">Home</a></li>
+            <li class="active"><a href="{$P.HomePageURL}/Company/Company">Company</a></li>
+            <li class="active">Trade Show</li>
+        </ul>
+    </div>
+</section>
+<!-- Main Breadcrumb Code End -->
+<!-- Trade Show Page Section Start -->
+<section class="TradeShow feature_inner inner_page">
+    <div class="container">
+        <h4>Trade Show Schedule for Avalon Solution</h4>
+        <p>Avalon Solution will be participating at the following Jewelry Trade Shows around the country to introduce our Turnkey Online ECommerce Solutions for Retail Jewelers. It is our pleasure to invite you to any of these trade shows to preview Avalon Solution’s Web Services to extend your Business and your Brand to the world wide web.</p>
+        <div class="TradeShowTable" id="TradeShowDetails">
+        </div>
+
+        <div class="modal fade" id="MakeanAppointment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="form">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" id="reset" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Make an Appointment with Avalon Solution</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form id="TradeShowForm" class="TradeShowForm col-sm-12 pull-left nopadding">
+                            <div class="MakeAppLeft col-sm-3" id="SelectedTradeShow">
+                            </div>
+                            <div class="MakeAppRight col-sm-9 nopadding" id="TradeShowAppointmentForm">
+                               <h4 id="ShowHeading"><span id="ShowHead"></span><input type="hidden" id="hdnShowName" value="" /> <span class="pull-right"><small>* Required</small></span></h4>
+                                <div class="form-group col-sm-12 col-xs-12">
+                                    <label for="ContactPerson" class="col-sm-4 form-control-label">*Contact Person:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text"  class="form-control" id="txtContactPerson" placeholder="Contact Person" />
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-12 col-xs-12">
+                                    <label for="StoreName" class="col-sm-4 form-control-label">*Store Name:</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtStoreName" placeholder="Store Name" />
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-12 col-xs-12">
+                                    <label for="City" class="col-sm-4 form-control-label">*City | State:</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" id="txtCity" maxlength="50" placeholder="City" />
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <span class="caret pull-right"></span>
+                                        <select id="drpdwnState"  class="form-control">
+                                            <option value="0">- Select -</option></select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-12 col-xs-12">
+                                    <label for="Telephone" class="col-sm-4 form-control-label">*Tel # | Email Address:</label>
+                                    <div class="col-sm-4">
+                                        <input type="text" class="form-control" id="txtTelephoneTradeShow" maxlength="15" placeholder="Telephone" />
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <input type="email" class="form-control" id="txtEmailTradeShow" placeholder="Email Address" />
+                                        <span id="errEmailTradeShow" class="errMsg"></span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-12 col-xs-12">
+                                    <label for="SelectDate" class="col-sm-4 form-control-label">*Appointment Time:</label>
+                                    <div class="col-sm-4">
+                                        <span class="caret pull-right" ></span>
+                                        <select id="ddlSelectDate" class="form-control">
+                                            <option value="">Select Date</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-sm-4">
+                                        <span class="caret pull-right"></span>
+                                        <select id="ddlSelectTime" class="form-control">
+                                            <option value="">Select Time</option>
+                                            <option value="09:30 AM">09:30 AM</option>
+                                            <option value="10:00 AM">10:00 AM</option>
+                                            <option value="10:30 AM">10:30 AM</option>
+                                            <option value="11:00 AM">11:00 AM</option>
+                                            <option value="11:30 AM">11:30 AM</option>
+                                            <option value="12:00 PM">12:00 PM</option>
+                                            <option value="12:30 PM">12:30 PM</option>
+                                            <option value="01:00 PM">01:00 PM</option>
+                                            <option value="01:30 PM">01:30 PM</option>
+                                            <option value="02:00 PM">02:00 PM</option>
+                                            <option value="02:30 PM">02:30 PM</option>
+                                            <option value="03:00 PM">03:00 PM</option>
+                                            <option value="03:30 PM">03:30 PM</option>
+                                            <option value="04:00 PM">04:00 PM</option>
+                                            <option value="04:30 PM">04:30 PM</option>
+                                            <option value="05:00 PM">05:00 PM</option>
+                                            <option value="05:30 PM">05:30 PM</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-12 col-xs-12">
+                                    <label for="AvalonCustomer" class="col-sm-4 form-control-label">*Avalon Customer:</label>
+                                    <div class="col-sm-4 " id="rdAvalonCustomer" >
+                                        <label class="radio-inline ">
+                                            <input type="radio" id="CustomerYes" value="Yes" class="radioTradeShow" name="radio" required > Yes
+                                        </label>
+                                        <label class="radio-inline">
+                                            <input type="radio" id="CustomerNo" value="No" class="radioTradeShow" name="radio" required> No
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-12 col-xs-12">
+                                    <label for="Telephone" class="col-sm-4 form-control-label">Comments:</label>
+                                    <div class="col-sm-8">
+                                        <textarea class="form-control" id="txtComments" placeholder="Comments"></textarea>
+                                    </div>
+                                </div>
+
+                                <!--<div class="form-group formMain col-sm-12 enterpress">
+                                    <label class="col-sm-4 form-control-label nopadding" id="lblCaptcha">*Captcha:</label>
+                                    <div class="g-recaptcha col-sm-8 col-xs-12" data-sitekey="6Lf0xh0TAAAAAC2tQRJNk3vb5oeOF4RX6JcF5AXg"></div>
+                                    <span id="spcaptcha" class="errMsg"></span>
+                                </div>-->
+
+                                <div class="form-group col-sm-12 col-xs-12">
+                                    <a id="btnSubmitTradeShow" class="btn btn-signup pull-right">Submit</a>
+                                </div>
+
+                            </div>
+                            <div class="MakeAppRight col-sm-9 TradeShowSuccess nopadding" style="display: none" id="TradeShowSuccess">
+                                <h3>Thank You! Your Appointment with ASHI is confirmed.</h3>
+                                <p>You will also receive an email with your appointment time and our booth location.</p>
+                                <h4>Appointment Info</h4>
+                                <p><span class="TradeShowLabel">Show:</span> <span class="labelDetail" id="appointmentDetails"></span></p>
+                                <p><span class="TradeShowLabel">Date:</span> <span class="labelDetail" id="appointmentDates"></span></p>
+                                <p><span class="TradeShowLabel">Time:</span> <span class="labelDetail" id="appointmentTime"></span></p>
+
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a id="btnCloseTradeShow" class="btn btn-default" data-dismiss="modal">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Trade Show Page Section End -->

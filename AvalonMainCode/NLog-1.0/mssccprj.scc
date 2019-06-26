@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[NLog.csproj]
+SCC_Aux_Path = "\\calcscppe01\vss\VSS_CRFdev"
+SCC_Project_Name = "$/CMBS/CSC.CRF.Trading/4.0/Utilities/NLog-1.0", IQXHAAAA

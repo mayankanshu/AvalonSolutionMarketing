@@ -1,0 +1,170 @@
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Logging\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Logging\obj\Debug\ResolveAssemblyReference.cache
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\Logging\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\Logging\obj\Debug\ResolveAssemblyReference.cache
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ResolveAssemblyReference.cache
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ResolveAssemblyReference.cache
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ResolveAssemblyReference.cache
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ResolveAssemblyReference.cache
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\SHCollection\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\SHCollection\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\SHCollection\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+E:\SHCollection\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+E:\SHCollection\SourceCode\Utilities\Logging\obj\Debug\ResolveAssemblyReference.cache
+E:\SHCollection\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\SHCollection\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\obj\Debug\ResolveAssemblyReference.cache
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\obj\Debug\ResolveAssemblyReference.cache
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\ajay\emotiondiamonds\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\ajay\emotiondiamonds\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\ajay\emotiondiamonds\SourceCode\Utilities\Logging\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\ajay\emotiondiamonds\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+E:\ajay\emotiondiamonds\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+E:\ajay\emotiondiamonds\SourceCode\Utilities\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+E:\ajay\emotiondiamonds\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\ajay\emotiondiamonds\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\Logging\bin\Debug\NLog.dll
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\Logging\bin\Debug\NLog.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\ajay\AshiMicroB2C\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Logging\bin\Debug\NLog.dll
+E:\ajay\AshiMicroB2C\SourceCode\Logging\bin\Debug\NLog.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\ajay\AshiMicroB2C\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+E:\ajay\AshiMicroWSSetup\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\ajay\AshiMicroWSSetup\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\ajay\AshiMicroWSSetup\SourceCode\Logging\bin\Debug\NLog.dll
+E:\ajay\AshiMicroWSSetup\SourceCode\Logging\bin\Debug\NLog.pdb
+E:\ajay\AshiMicroWSSetup\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\ajay\AshiMicroWSSetup\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\Logging\bin\Debug\NLog.dll
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\Logging\bin\Debug\NLog.pdb
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Logging\bin\Debug\NLog.dll
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Logging\bin\Debug\NLog.pdb
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Logging\bin\Debug\NLog.dll
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Logging\bin\Debug\NLog.pdb
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.dll
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.pdb
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.pdb
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.pdb
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.pdb
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.pdb
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\bin\Debug\NLog.pdb
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Logging\bin\Debug\ASHI.Common.Logging.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Logging\bin\Debug\NLog.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Logging\bin\Debug\NLog.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Logging\obj\Debug\ASHI.Common.Logging.pdb

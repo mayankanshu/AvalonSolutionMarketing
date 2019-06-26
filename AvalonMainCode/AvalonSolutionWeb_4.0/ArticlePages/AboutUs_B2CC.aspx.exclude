@@ -1,0 +1,175 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="AboutUs_B2CC.aspx.cs" Inherits="ArticlePages_AboutUs_B2CC" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <!--Added Js to Call Master Template-->
+    <script type="text/javascript" src="<%=Constants.AvalonDataDesinTemplatesPath%>Js/MasterPage/Template.js"></script>
+    <!-- Js content ABout Us - Single Page-->
+    <script type="text/javascript" src="<%=Constants.AvalonDataDesinTemplatesPath%>js/AboutUsPage/AboutUs.js"></script>
+    <!-- Js content ABout Us Article - Tabs Based Page -->
+    <script type="text/javascript" src="<%=Constants.AvalonDataDesinTemplatesPath%>js/AboutUsPage/AboutUsArticleTabs.js"></script>
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="container">
+        <div class="row">
+            <div class="aboutusb2cc">  
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    <% if (Constants.MicrowebsiteId == 5) { %>
+                     <h1 class="heading_clrblue">ABOUT  <%= CompanyName.ToUpper()%></h1>     
+                    <% }%>
+                    <%else { %>
+                     <h1>ABOUT  <%= CompanyName.ToUpper()%></h1>     
+                    <%} %>
+                    <p>
+                        <%= AboutUsHTML %>
+                    </p>
+                    <h1 style="padding: 0; margin: 0 0 8px 0;">
+                        <asp:Label runat="Server" ID="lblHeadPromotion" Text="PROMOTIONS"></asp:Label>
+                    </h1>
+                    <p style="padding: 0px; margin: 0;">
+                        <%= PromotionsHTML %>
+                    </p>
+                    <asp:DataList runat="server" ID="dtlAboutUsMultipleStore" OnItemDataBound="dtlAboutUsMultipleStore_ItemDataBound">
+                        <%--                  <ItemTemplate>
+                            <h1 style="padding: 0; margin: 15px 0 8px 0;">
+                                Store Location & Hours
+                            </h1>
+                            <div id="dModel" onmouseover="javascript:showMap('<%#Eval("Address1")%>', '<%#Eval("City")%>', '<%#Eval("StateName")%>', '<%#Eval("ZIPCode")%>')">
+                                <p style="padding: 0; margin: 0 0 10px 0;">
+                                    <asp:Label ID="lblCompanyName" runat="server"><%#Eval("CompanyName")%></asp:Label>
+                                    <br />
+                                    <asp:Label ID="lblBranchLocation" runat="server"><%#Eval("BranchLocation")%></asp:Label>
+                                    <br />
+                                    <%#Eval("Address1")%><br />
+                                    <%#Eval("Address2")%><br />
+                                    <%#Eval("City")%>,
+                                    <%#Eval("StateName")%>
+                                    <%#Eval("ZIPCode")%>
+                                </p>
+                                <p style="padding: 0; margin: 0 0 10px 0;">
+                                    Tel:
+                                    <%#Eval("Telephone1") %>
+                                    <br />
+                                    <%#Eval("Telephone2") %>
+                                </p>
+                                <p style="padding: 0; margin: 0 0 10px 0;">
+                                    Email: <a href="mailto:<%=EmailId %>"><strong>
+                                        <%#Eval("EmailId")%></strong></a>
+                                </p>
+                                <p style="padding: 0; margin: 0 0 10px 0;">
+                                    <%#Eval("WebSiteURL") %>
+                                </p>
+                                <p style="padding: 0; margin: 0;">
+                                    <%#Eval("StoreHours1") %>
+                                    <br />
+                                    <%#Eval("StoreHours2") %>
+                                    <br />
+                                    <%#Eval("StoreHours3") %>
+                                    <br />
+                                </p>
+                            </div>
+                        </ItemTemplate>--%>
+                    </asp:DataList>
+                    <h1 id="displayStoreHoursText" style="padding: 0; margin: 10px 0 8px 0;" runat="server"></h1>
+                    <p style="padding: 0; margin: 0 0 10px 0;">
+                        <strong>
+                            <%= CompanyName%></strong>
+                    </p>
+                    <p>
+                        <span style="text-transform: uppercase;"><strong>
+                            <%= String.IsNullOrEmpty(BranchLocation) ? "" : BranchLocation + "<br/>"%>
+                        </strong></span><span style="text-transform: uppercase;">
+                            <%= Address1%><br />
+                            <%= String.IsNullOrEmpty(Address2) ? "" : Address2 + "<br/>"%>
+                            <%= City%>,
+                            <%= State%>
+                            <%= ZIP%>
+                        </span>
+                        <br />
+                         Tel:
+                        <%=Telephone1 %>
+                        <br />
+                        <%= String.IsNullOrEmpty(Telephone2) ? "" : Telephone2 + "<br/>"%>
+                        Email: <a href="mailto:<%=EmailId %>">
+                            <%=EmailId%></a>
+                        <br />
+                        <%=WebSiteURL %>
+                        <br />
+                        <%=StoreHours1 %>
+                        <br />
+                        <%=StoreHours2 %>
+                        <br />
+                        <%=StoreHours3 %>
+                        <br />
+                        <br />
+                        <a href="../Location/<%=clientURL%>" style="color: #933863;">View our Store Locations ></a>
+                    </p>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <p style="margin-top:25px;">
+                        <img alt="" src="<%=StoreImagePath %>" class="img-responsive" style="width:500px" />
+                    </p>
+                    <div id="map_canvas" style="width:100%; height: 236px; margin: 30px 0 0 0; color: #3c3c3c; font-size: 14px;">
+                    </div>
+                </div>
+                <div style="clear: both;">
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=<%= Constants.GOOGLE_API_KEY %>"
+        type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        var map = null;
+        var geocoder = null;
+        var found = 1;
+        function initialize() {
+            if (GBrowserIsCompatible()) {
+                map = new GMap2(document.getElementById("map_canvas"));
+                map.setCenter(new GLatLng(37.4419, -122.1419), 13);
+                geocoder = new GClientGeocoder();
+            }
+        }
+
+        function showAddress(address) {
+            if (geocoder) {
+                geocoder.getLatLng(
+          address,
+          function (point) {
+              if (!point) {
+                  alert('Can not locate :' + address);
+                  found = 0;
+              } else {
+                  map.setCenter(point, 13);
+                  var marker = new GMarker(point);
+                  map.addOverlay(marker);
+                  marker.openInfoWindowHtml(address);
+              }
+          }
+        );
+                map.addControl(new GSmallMapControl());
+                map.addControl(new GMapTypeControl());
+            }
+        }
+
+        function showMap(Address1, City, State, ZIP) {
+            var Address = Address1 + ' ' + City + ' ' + State + ' ' + ZIP
+            showAddress(Address);
+            if (!found)
+                alert('Sorry');
+
+
+        }
+        initialize();
+        showMap('<%= Address1 %>', '<%=City %>', '<%=State %>', '<%=ZIP %>')
+        
+        
+       
+   
+    
+    </script>
+
+</asp:Content>

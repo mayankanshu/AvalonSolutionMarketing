@@ -1,0 +1,4033 @@
+﻿body {
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4 url(../Images/MainBg.jpg) repeat-x;
+	height: 650px;
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #e8e3d9;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+h {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+.jcarousel-skin-tango a {
+    z-index:9999;
+    position:relative;
+}
+#MasterContent {
+	width: 1000px;
+	margin: 0px auto;
+}
+.MasterContent1 {
+	width: 1000px;
+	margin: 0px auto;
+}
+#Header {
+	width: 1000px;
+	/*margin-bottom: 15px;*/
+	padding: 0px;
+}
+#Logo {
+	padding: 0;
+	margin:46px 0 30px;
+	float: left;
+	width: 339px;
+	height:65px;
+}
+#top_RightLinks {
+	float: right;
+	width: 565px;
+	margin-right: 5px;
+}
+.toplink-b2c {
+   background: url("../Images/top-navi-b2c-bg.png") no-repeat scroll 0 0 transparent !important;
+   padding: 0 33px 0 0 !important;
+   width: 210px !important;
+}
+#toplink {
+    background: url("../Images/top-navi-bg.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    float: right;
+    height: 31px;
+    margin: 9px 0 15px;
+    padding: 0 33px 0 0;
+    text-align: right;
+    width: 330px;
+}
+#toplink a {
+	padding: 0;
+	margin: 0 3px;
+	font: 13px/25px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+#toplink span {
+	font: 10px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #FFFFFF;
+}
+#toplink a:hover {
+	color: #fff;
+	text-decoration: underline;
+    border:none;
+}
+#toplink a:active {
+    border:none !important;
+}
+#toplink a:visited {
+    border:none !important;
+}
+#toplink a:focus {
+    border:none !important;
+}
+#RightBottom_Link {
+	padding: 0;
+	margin: 0 5px 0 0 ;
+	text-align: right;
+	color:#305c48;
+}
+#RightBottom_Link a {
+	padding: 0;
+	margin: 0 3px;
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #305c48;
+}
+#RightBottom_Link a:hover {
+	color: #305c48;
+	text-decoration: underline;
+}
+#toplink1 {
+	padding: 0;
+	margin:0px 0 18px 0;
+	text-align: right;
+	float:right;
+	color:#305c48;
+}
+#toplink1 a {
+	padding: 0;
+	margin: 0 5px;
+	font: 13px/25px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #305c48;
+	text-transform: uppercase;
+}
+ 
+#toplink1 span {
+	font: 10px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #305c48;
+}
+#toplink1 a:hover {
+	color: #305c48;
+	text-decoration: underline;
+}
+#toplink11 {
+    padding: 0;
+	margin:0px 0 18px 0;
+	text-align: right;
+	float:right;
+	color:#305c48;
+}
+#toplink11 a {
+	padding: 0;
+	margin: 0 5px;
+	font: 13px/25px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #305c48;
+	text-transform: uppercase;
+}
+#toplink11 span {
+	font: 10px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #305c48;
+}
+#toplink11 a:hover {
+	color: #305c48;
+	text-decoration: underline;
+}
+#RightBottom_Link1 {
+	padding: 0;
+	margin: 0 5px 0 0;
+	text-align: right;
+}
+#RightBottom_Link1 a {
+	padding: 0;
+	margin: 0 3px;
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #dfdfdf;
+}
+#RightBottom_Link1 a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.MasterMiddle {
+	/*width: 1000px;
+	margin: 13px auto 0px auto;
+	background-color: #fff; 
+	border: solid 1px #AFAFAF;
+	padding-top:3px;
+	padding-bottom:3px;
+	border: solid 1px #AFAFAF; */
+}
+/*.MiddleContent {
+	padding: 0;
+	margin-top: 6px;
+}*/
+.newMiddleContent { margin-top:10px;
+	padding: 0;
+	margin-left:6px;
+}
+.MiddleContent2 {
+	padding: 0;
+	/*margin: 6px 20px;*/
+}
+#LeftFlash {
+	/*width: 998px;
+	height: 498px;
+	margin:0;
+	padding:1px ;*/
+	float: left;
+	/*background-color: #e4e4e4;*/
+}
+#RightBox {
+	width: 300px;
+	padding: 0;
+	margin: :0;
+	float: right;
+}
+.IDoCollectionBox {
+	padding: 6px;
+	margin: 0 0 6px 0;
+	border: solid 1px #AFAFAF;
+}
+.IDoCertifiedBox {
+	padding: 6px;
+	margin: 0;
+	border: solid 1px #AFAFAF;
+}
+.ViewIdoBox {
+	width: 286px;
+	height: 136px;
+	padding: 0;
+	margin: 0;
+	background: url(../Images/Collection_YellowBg.jpg) no-repeat;
+}
+.boxEngagement h1 {
+	padding: 8px 0 2px 5px;
+	margin: 0;
+	font: 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 18px;
+	color: #2B4F3F;
+}
+.yelowBox h1 {
+	padding: 8px 0 2px 5px;
+	margin: 0;
+	font: 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 18px;
+	color: #2B4F3F;
+}
+.yelowBox h1 a {
+	font: bold 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 18px;
+	color: #2B4F3F;
+}
+.yelowBox h1 a:hover {
+	text-decoration: underline;
+}
+.yelowBox p {
+	padding: 0;
+	margin: 0 0 0 5px;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 17px;
+}
+.yelowBox p a {
+	font: normal 14px 'Times New Roman' , Times, serif;
+	color: #3c3c3c;
+	line-height: 17px;
+}
+.yelowBox p a:hover {
+	text-decoration: none;
+}
+/* Test */
+.promos .yelowBox a h1, .promos .column a p {
+	text-decoration: none;
+}
+.promos .yelowBox a .more {
+}
+.promos .yelowBox a:hover .more {
+	text-decoration: underline;
+}
+
+/* Test */
+.prods .ProductBoxBg a h1, .prods .column a p {
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.prods .ProductBoxBg a .more {
+}
+.prods .ProductBoxBg a:hover .more {
+	text-decoration: underline;
+}
+.Price {
+	padding: 0;
+	margin: 0;
+	font: normal 18px 'Times New Roman' , Times, serif;
+	color: #3366ff;
+}
+.WhatsNewBox {
+	width: 286px;
+	height: 138px;
+	padding: 0;
+	margin: 0;
+	background: url(../Images/WhatsNewBox.jpg) no-repeat;
+}
+.WhatsNewBox_ShopCatalog_Upper {
+	width: 286px;
+	height: 138px;
+	padding: 0;
+	margin: 0;
+	background: url(../Images/CertifiedBox.jpg) no-repeat;
+}
+.CertifiedBox {
+	width: 286px;
+	height: 133px;
+	padding: 0;
+	margin: 0;
+	background: url(../Images/CertifiedBox.jpg) no-repeat;
+}
+.CertifiedBox_GoToMainWebsite {
+	width: 286px;
+	height: 133px;
+	padding: 0;
+	margin: 0;
+	background: url(../Images/GoToWeb.jpg) no-repeat;
+}
+
+
+
+
+/*********************** Css For Left Menu ***********************/
+.MainHeader {
+	padding: 0;
+	/*margin:6px 14px 6px 0px;*/
+	margin: 0;
+	
+}
+#LeftMenuMain {
+	width: 182px;
+	float: left;
+	padding: 0;
+	margin: 0;
+	border: solid 1px #afafaf;
+	background:#f2fef8;
+}
+.LeftMenu {
+	background-color: #f2fef8;
+	height: 304px;
+	/*padding: 0 0 0 10px;
+	margin: 6px;*/
+	
+}
+.LeftMenu h1 {
+	margin: 0;
+	padding:10px 15px 15px 15px;
+	font: 20px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2B4F3F;
+}
+.LeftMenu h1 a {
+	text-decoration: none;
+	font: 20px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2b4f3f;
+}
+.LeftMenu h1 a:hover {
+	text-decoration: underline;
+}
+.LeftMenu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.LeftMenu li {
+	padding: 0 0 8px 0;
+	margin: 0;
+}
+.LeftMenu li a {
+	 color: #7b7b7b;
+    float: left;
+    font: 14px/18px "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+   margin: 0 0 1px;
+    padding:3px 0 6px 15px;
+    width: 167px;
+}
+.LeftMenu li a:hover {
+	padding:3px 0 6px 15px;
+	 margin: 0 0 1px;
+	color: #ffffff !important;
+	text-decoration: none;
+	background:#267d55;
+}
+#HeaderRight {
+	/*width: 790px;*/
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+#newHeaderRight {
+	width: 734px;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+.BridalColl {
+	padding: 0;
+	margin:10px 21px 0 0;
+	float: left;
+	background: url(../Images/Bridal-Engagement.png) no-repeat;
+	width: 317px;
+	height: 188px;
+	border: solid 1px #B1B1B1;
+}
+.BridalColl:hover {
+	border: solid 1px #388763;
+}
+.BridalColl h1 {
+	padding: 8px 0 8px 20px;
+	margin: 0;
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2B4F3F;
+}
+.BridalColl h1 a {
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2B4F3F;
+}
+.BridalColl h1 a:hover {
+	text-decoration: underline;
+}
+.BridalColl p {
+	padding-left: 20px;
+	margin: 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #585858;
+	line-height: 18px;
+}
+.BridalColl p a {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #585858;
+	line-height: 18px;
+}
+.EngagementColl {
+	padding: 0;
+	margin: 10px 19px 17px 0;
+	float: left;
+	background: url(../Images/Bridal-Ring.png) no-repeat;
+	width: 317px;
+	height: 188px;
+	border: solid 1px #B1B1B1;
+}
+.EngagementColl:hover {
+    border: solid 1px #388763;
+}
+.EngagementColl h1 {
+	padding: 8px 0 8px 20px;
+	margin: 0;
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 18px;
+	color: #2B4F3F;
+}
+.EngagementColl h1 a {
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2B4F3F;
+}
+.EngagementColl h1 a:hover {
+	text-decoration: underline;
+}
+.EngagementColl p {
+	padding-left: 20px;
+	margin: 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #585858;
+	line-height: 18px;
+}
+.EngagementColl p a {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #585858;
+	line-height: 18px;
+}
+.WeddingColl {
+	padding: 0;
+	margin:10px 0px 17px 0;
+	float: right;
+	background: url(../Images/Bridal-Pendants.png) no-repeat;
+	width: 317px;
+	height: 188px;
+	border: solid 1px #B1B1B1;
+}
+.WeddingColl:hover {
+    border: solid 1px #388763;
+}
+.WeddingColl h1 {
+	padding: 8px 0 8px 20px;
+	margin: 0;
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 18px;
+	color: #2B4F3F;
+}
+.WeddingColl h1 a
+{
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2B4F3F;
+}
+.WeddingColl h1 a:hover {
+	text-decoration: underline;
+}
+.WeddingColl p {
+	padding-left: 20px;
+	margin: 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #585858;
+	line-height: 18px;
+}
+.WeddingColl p a {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #585858;
+	line-height: 18px;
+}
+/* Css For Search */
+.gaat40-reset {
+	 float: left;
+    margin: 15px 13px 0;
+    padding: 0;
+}
+.gaat40-search {
+	padding: 0;
+	margin: 0;
+}
+.gaat40-inptsearch {
+	/*position: absolute;*/
+	background: url(../Images/SearchBox.png) no-repeat 0 0;
+	border: none;
+	width: 122px;
+	color: #686666;
+	padding: 0px 6px 0px 30px;
+	font-size: 12px;
+    height:27px;
+}
+.newgaat40-inptsearch {
+	position: absolute;
+	background: url(../Images/SearchBox.png) no-repeat 0 0;
+	border: none;
+	width: 122px;
+	color: #686666;
+	padding: 5px 6px 20px 25px;
+	font-size: 12px;
+}
+.SearchFields {
+	margin: 0 auto;
+	padding: 0;
+	width: 605px;
+}
+.SearchFields h1 {
+	padding: 0;
+	margin: 0 0 5px 0;
+	font: bold 13px 'Times New Roman' , Times, serif;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+.SearchFieldsInn {
+	padding: 15px;
+	margin: 0 0 120px 0;
+	background-color: #ededec;
+	border: solid 1px #d1d1d1;
+}
+.MainSearchFields {
+	margin: 0 auto;
+	width: 535px;
+}
+.formhead {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: right;
+}
+.IndicateField {
+	padding: 3px 0 30px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+.SearchPadding {
+	padding: 8px 0 0 0;
+}
+.comboBox {
+	text-align: right;
+	width: 175px;
+}
+.comboBox1 {
+	text-align: right;
+	width: 165px;
+}
+.SearchBtn {
+	padding: 20px 0 0 0;
+	margin: 0;
+	text-align: center;
+}
+
+/* Css For Bridals Sets Page */
+.pagerContainer {
+	/*padding-bottom: 10px;*/
+	background: #ECEBEB;
+	border-bottom: 10px solid #222222;
+}
+.pagerContainerBot {
+	/*padding-top: 10px;*/
+	background: #ECEBEB;
+	border-top: 10px solid #222222;
+}
+
+
+.pagerContainerEmpty {
+	/*padding-bottom: 10px;*/
+	background: #ECEBEB;
+	
+}
+.pagerContainerBotEmpty {
+	/*padding-top: 10px;*/
+	background: #ECEBEB;
+}
+
+
+
+.pager {
+	padding: 15px 20px;
+	/*padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #404040;
+	border-bottom: 1px solid #404040;*/
+	color: #222222;
+}
+.pager input[type=text], .pager select {
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 13px;
+	color: #333;
+	padding: 4px 8px;
+	width: 125px;
+	text-align: left;
+	border: 1px solid #C6C8D5;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	/*-webkit-box-shadow:inset 1px 1px 0px #bfbfbf;
+    -moz-box-shadow:inset 1px 1px 0px #bfbfbf;
+    box-shadow:inset 1px 1px 0px #bfbfbf;*/
+}
+.pager select {
+	width: 125px;
+	height: 28px;
+}
+.pager .listFilter {
+	float: left;
+	margin-right: 20px;
+}
+.pager .listSort {
+	float: left;
+}
+.pager .listStyles {
+	float: right;
+	font-size: 15px;
+	color: #000;
+	line-height: 26px;
+}
+.pager .listPage {
+	float: right;
+}
+#IDo_Pager {
+	padding: 0;
+	margin: 15px 15px;
+	width: 898px;
+}
+#IDo_Pager1 {
+	padding: 0;
+	margin: 15px 15px;
+	width: 898px;
+}
+.PagerTop {
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+.PagerSortTop {
+	padding: 0;
+	margin: 0 0 12px 0;
+}
+.Filter {
+	width: 335px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.Show {
+	width: 225px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.SortBy {
+	padding: 0;
+	margin: 0;
+	float: right;
+	text-align: right;
+}
+.PagerText {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #222222;
+}
+.pagingnew {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	/*color: #fff;*/
+	padding-top: 3px;
+	text-decoration: none;
+}
+.pagingnew a {
+	/*color: #fff;*/
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	padding-top: 3px;
+	text-decoration: none;
+}
+.pagingnew a:hover {
+	/*color: #fff;*/
+	padding-top: 3px;
+	text-decoration: none;
+}
+.pagingnewactive a {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	/*color: #fff;*/
+	padding-top: 3px;
+	text-decoration: none;
+}
+.pagingnew:link {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	/*color: #fff;*/
+	padding-top: 3px;
+	text-decoration: none;
+}
+.pagingnew:visited {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	/*color: #fff;*/
+	padding-top: 3px;
+	text-decoration: none;
+}
+.pagingnew:hover {
+	/*color: #fff;*/
+	padding-top: 3px;
+	text-decoration: none;
+}
+.pagingnew:active {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	/*color: #fff;*/
+	padding-top: 3px;
+	text-decoration: none;
+}
+.moziMargin5 {
+	margin-top: 3px;
+}
+#IDo_PagerBott {
+	padding: 0;
+	margin: 6px 0px;
+	width: 925px;
+}
+#IDo_PagerBott1 {
+	padding: 0;
+	margin: 6px 0px;
+	width: 925px;
+}
+.Products {
+	/*width: 1000px;
+	padding: 0 6px ;*/
+	margin: 0 auto;
+}
+.ProductsLast {
+	padding: 0;
+	margin: 0;
+}
+.FirstProductBox {
+	width: 365px;
+	float: left;
+	border-right: solid 1px #222222;
+	border-bottom: solid 1px #222222;
+}
+.SecondProductBox {
+	/*width: 379px;
+	float: left;*/
+}
+.ThirdProductBox {
+	/*width: 379px;
+	float: left;*/
+}
+.ProductBoxBg {
+	height:480px;
+	background-color: #f8f7f5;
+	text-align: center;
+}
+.ProductBoxBg1 {
+	height: 140px;
+	padding: 10px;
+	background-color: #f8f7f5;
+}
+.popupBox {
+	width: 379px;
+	height: 480px; 
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+.popupBoxHomeLeft {
+	float: left;
+	width: 320px;
+	height: 420px; 
+	margin: 0;
+	padding: 30px;
+	background-color: #f2f2f2;
+}
+.popupBoxHomeRight {
+	float: right;
+	width: 320px;
+	height: 420px; 
+	margin: 0;
+	padding: 30px;
+	background-color: #f2f2f2;
+}
+.popupBoxHomeCenter {
+	float: right;
+	width: 320px;
+	height: 420px; 
+	margin: 0;
+	padding: 30px;
+	background-color: #f2f2f2;
+}
+.popupBoxHomeLeftShare {
+	float: left;
+	width: 150px;
+	/*height: 42px;*/
+	margin-top: 365px;
+	padding: 5px;
+	color: #333;
+	background-color: #646464;
+	text-align: center;
+}
+.popupBoxHomeRightShare {
+	float: right;
+	width: 150px;
+	/*height: 42px;*/ 
+	margin-top: 360px;
+	margin-left: 228px;
+	padding: 5px;
+	color: #333;
+	background-color: #646464;
+	text-align: center;
+}
+.popupBoxHomeCenterShare {
+	float: right;
+	width: 150px;
+	/*height: 42px; */
+	margin-top: 360px;
+	padding: 5px;
+	color: #333;
+	background-color: #646464;
+	text-align: center;
+}
+.ShareIcons {
+	/*border: 1px solid red;*/
+}
+.ShareIcons ul {
+	/*margin-top: 10px;*/
+}
+.ShareIcons ul li {
+	float: left;
+	margin: 0px 3px;
+	width: 24px;
+	height: 24px;
+}
+.ShareIcons ul li a { 
+	/*display:block;
+	margin-bottom: 1px;
+	padding: 0 5px;
+	font-size:15px;
+	color:#ffffff;
+	line-height: 28px;
+	text-transform:uppercase;*/
+}
+.ProductHeading {
+	padding: 0;
+	margin: 0;
+	font: 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 18px;
+	color: #2B4F3F;
+}
+.ProductHeading a {
+	font: 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 18px;
+	color: #3366ff;
+}
+.ProductHeading a:hover {
+	text-decoration: underline;
+}
+.ProductDis {
+	padding: 0;
+	margin: 10px 0 0 0;
+	width: 166px;
+	float: left;
+	font: normal 14px 'Times New Roman' , Times, serif;
+	color: #3c3c3c;
+	line-height: 17px;
+}
+.ProductDis a {
+	font: normal 14px 'Times New Roman' , Times, serif;
+	color: #3c3c3c;
+	line-height: 17px;
+}
+.ProductBoxBg h1 {
+	padding: 0;
+	margin: 0 0 12px 0;
+	font:bold 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2B4F3F;
+	text-align: center;
+}
+.ProductBoxBg h1 a {
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	cursor: pointer;
+	color: #3366ff;
+}
+.ProductBoxBg h1 a:hover {
+	text-decoration: underline;
+}
+.ProductBoxBg p {
+	padding: 0;
+	margin: 0;
+	width: 270px;
+	height: 65px;
+	cursor: pointer;
+	font: 13px/17px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: justify;
+}
+.ProductBoxBg p a {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 17px;
+}
+.ProductItem {
+	padding: 0;
+	margin: 0;
+	width: 100px;
+	cursor: pointer;
+	float: right;
+}
+.ProductPrice {
+	padding: 0;
+	margin: 20px 0 0 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #1e1e1c;
+	line-height: 16px;
+}
+.SearchResultLeft {
+    border: 1px solid #C8C8C8;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+}
+.ResultLeftInn {
+   background: #f4f4f4;
+    margin: 0;
+    padding: 16px 2px 6px 24px;
+}
+.ResultLeftInn h1 {
+	padding: 0;
+	margin: 0 0 10px 0;
+	font: 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #272727;
+}
+.SearchName {
+	padding: 0;
+	margin: 0;
+}
+.SearchName input[type=text], .SearchName input[type=password], .SearchName select, .SearchName textarea {
+	font-family: Arial, Verdana, sans-serif;
+	padding: 3px 8px;
+	width: 360px;
+	text-align: left;
+	border: 1px solid #e8e8e8;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow:inset 1px 1px 0px #bfbfbf;
+    -moz-box-shadow:inset 1px 1px 0px #bfbfbf;
+    box-shadow:inset 1px 1px 0px #bfbfbf;
+    margin-bottom: 8px;
+}
+
+.SearchName select {
+	width: 375px;
+	height: 28px;
+}
+
+
+.SearchName p {
+	padding: 0;
+	margin: 0;
+	font: normal 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 18px;
+	color: #626262;
+}
+.SearchResultRight {
+	padding: 0;
+	margin: 0;
+	width: 876px;
+	float: right;
+	/*border: solid 1px #AFAFAF;*/
+	   height: 416px;
+
+}
+.SearchResultRight img
+{
+	width: 876px;
+	height: 416px;
+}
+.SearchMid {
+	width: 1140px;
+	padding: 0;
+	margin: 0;
+}
+.SearchMid h1 {
+	margin: 0;
+	padding: 10px 20px 10px 10px;
+	font: normal 15px/18px "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	color: #ffffff; 
+	background: #888888;
+}
+.SearchMid h1 span {
+    color: #272727 !important;
+    font: bold 13px/18px "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif !important;
+    text-align: center !important;
+    }
+.SearchMid p {
+	padding: 0;
+	margin: 0 0 35px 10px;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3C3C3C;
+}
+
+
+
+
+/*********************** Css For Product Detail Page ***********************/
+#ProductDetail {
+	/*background-color: #FCF9F6;
+    border: 1px solid #AFAFAF;
+    height: 472px;
+    padding: 10px 6px 11px;
+    width: 784px;*/
+    padding: 40px;
+}
+.ProductDetailLeft {
+	width: 460px;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+.ProductDetailRight {
+	float: left;
+    margin: 0 0 0 20px;
+    padding: 0;
+    width: 575px;
+}
+.ProductMain {
+	padding: 0;
+	margin: 0;
+}
+.ProductLeft {
+	padding: 0 3px 0 0;
+	margin: 0;
+	width: 62px;
+	float: left;
+}
+.ShotProduct {
+	margin: 2px 0 0 0;
+	padding: 0;
+}
+.ProductRight {
+	padding: 0;
+	margin: 0 40px 0 0;
+	width: 350px;   /*390*/
+	float: right;
+	text-align: center;
+}
+.ProductZoom {
+	padding: 0;
+	margin: 0;
+	/*width: 200px;*/	/*320*/
+	text-align: center;
+}
+.PreviousNext {
+	margin: 0 auto;
+	padding: 0;
+	width: 350px;
+}
+.ProductDetailId {
+	color: #3c3c3c;
+	font-size: 12px;
+	margin: 0 5px;
+}
+.ProductsDetailBoxContainer {
+	padding: 15px;
+	border: 1px solid #E4E4E4;
+}
+.ProductsDetailBox {
+	float: left;
+	padding: 0 15px 0 15px;
+	width: 335px;
+	height: 175px;
+	border-left: 1px solid #E4E4E4;
+}
+.ProductsDetailBox h2 {
+	color: #222222;
+	background: #f4f4f4;
+	margin-top: 0;
+	padding: 5px 0;
+	font-size: 15px;
+	font-weight: normal;
+}
+.ProductsDetailBox:first-child {
+	border-left: none;
+	padding-left: 0;
+}
+.Product_Short_Disc_DivHead {
+	/*width: 340px;*/
+	padding: 0;
+	margin: 0;
+	font: 16px/24px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #202020;
+	text-align: justify;
+}
+.Product_Short_Disc {
+	/*width: 340px;*/
+	padding: 0;
+	margin: 10px 0 5px 0;
+	/*height: 223px;*/
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: justify;
+	line-height: 18px;
+	height: 143px;
+}
+.productDetailInfo {
+	background: #F4F4F4;
+	border: 1px solid #D7D7D7;
+	margin-top: 20px;
+}
+.ProductStyle {
+	width: 300px;
+	padding: 0;
+	margin: 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #222222;
+	text-align: justify;
+	line-height: 18px;
+}
+.ProductDetailPrice {
+	width: 300px;
+	padding: 0;
+	margin: 10px 0 10px 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #222222;
+	text-align: justify;
+}
+.ProductDetailPrice a {
+	text-decoration:none;
+	color: #222222;
+}
+.ProductDetailPrice a:hover {
+	text-decoration:underline;
+}
+.PriceColor {
+	color: #d50505;
+}
+.ProductLink {
+	padding: 0;
+	margin: 0;
+	padding: 10px 15px 5px 20px;
+	background: #ECECEC;
+	border-top: 1px solid #cccccc;
+}
+.ProductLink a {
+	color: #222222;
+	vertical-align: middle;
+	/*font: 10px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;*/
+}
+.ProductLink a:hover {
+	color: #222222;
+	text-decoration: underline;
+}
+.ProductsDetail {
+	width: 1000px;
+	padding: 0;
+	margin: 0;
+}
+.ProductInfo {
+	padding: 0;
+	margin: 5px 0 0 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.producttabs {
+	padding: 0;
+	margin:0 0 9px 15px;
+}
+.producttabs ul {
+	padding:0;
+	margin-left: 0px;
+	list-style-type:none;
+	border: 1px solid red;
+}
+.producttabs li {
+	padding:0;
+	margin:0;
+	display: inline;
+}
+.producttabs li a {
+	padding: 10px 40px;
+	text-align:center;
+	background: #F4F4F4 /*url(../Images/Product_Tab_Inactive1.jpg) no-repeat*/;
+	font:normal 13px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.producttabs li a:hover {
+	text-decoration: none;
+	/*background-image: url(../Images/Product_Tab_Active.jpg);
+	background-repeat: no-repeat;*/
+	background: #515151;
+	color: #ffffff;
+}
+.producttabs li a.selected {
+	/*background-image: url(../Images/Product_Tab_Active.jpg);*/
+	background: #515151;
+	color: #ffffff;
+}
+.tabcontent {
+	display: none;
+}
+/*.imgbrdSml {
+	margin: 0 0 5px 0;
+	border: solid 1px #D7D7D7;
+	display: block;
+	width: 62px;
+	background-color: #fff;
+}
+.imgbrdSml:hover {
+	border: solid 1px #91766d;
+	display: block;
+	width: 62px;
+}
+.imgbrdSml img {
+	width: 60px;
+	height: 60px;
+}*/
+.socialDetail {
+	float: right;
+	font-size: 12px;
+	width: 205px; 
+	text-align: right;
+	margin-bottom: 3px;
+}
+.socialDetail img {
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+}
+.socialDetail ul {
+	list-style-type: none;
+}
+.socialDetail ul li {
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	margin-left: 3px;
+	border-radius:11px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius:11px;
+    -khtml-border-radius:11px;
+    background: #535353;
+}
+.socialDetail ul li:hover {
+    background: #7d7d7d;
+}
+
+
+
+
+/***********************************************************
+						Css For Drop Down 
+***********************************************************/
+.NFSelect {
+	height: 21px;
+	position: absolute;
+	border: 1px solid transparent;
+}
+.NFSelectLeft {
+	float: left;
+	width: 3px;
+	height: 21px;
+	background: url(../Images/select-left.png) no-repeat 0 0;
+	vertical-align: middle;
+}
+.NFSelectRight {
+	height: 21px;
+	width: auto;
+	background: url(../Images/select-right.png) no-repeat 100% 0;
+	cursor: pointer;
+	font: 11px/21px Verdana, Arial, Helvetica, sans-serif;
+	color: #4f4747;
+	text-align: left;
+	padding-left: 3px;
+	margin-left: 3px;
+}
+.NFSelectTarget {
+	position: absolute;
+	background: none;
+	margin-left: -13px;
+	margin-top: 18px;
+	z-index: 3;
+	left: 0;
+	top: 0;
+	padding-bottom: 13px;
+}
+.NFSelectOptions {
+	position: relative;
+	background: #a99388;
+	margin-left: 16px;
+	margin-top: 0;
+	list-style: none;
+	padding: 4px 0;
+	color: #fff;
+	font: 10px/12px Verdana, Arial, Helvetica, sans-serif;
+	z-index: 4;
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	left: 0;
+	top: 0;
+}
+.NFSelectOptions a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	text-align: left;
+	padding: 2px 3px;
+	background: none;
+}
+.NFSelectOptions a.NFOptionActive {
+	background: #464646;
+}
+.NFSelectOptions a:hover {
+	background: #785c53;
+}
+/*Multiple Selects*/
+.NFMultiSelect {
+	border: 0;
+	background: none;
+	margin: 0;
+}
+.NFMultiSelectTop, .NFMultiSelectBottom {
+	height: 5px;
+	clear: both;
+	float: none;
+	padding-right: 10px;
+}
+.NFMultiSelectTop {
+	background: url(../Images/textarea-tr.png) no-repeat 100% 0;
+}
+.NFMultiSelectBottom {
+	background: url(../Images/textarea-br.png) no-repeat 100% 0;
+	margin-bottom: 5px;
+}
+.NFMultiSelectTopLeft, .NFMultiSelectBottomLeft {
+	width: 5px;
+	height: 5px;
+}
+.NFMultiSelectTopLeft {
+	background: #f2f2e6 url(../Images/textarea-tl.png) no-repeat 0 0;
+}
+/*Hidden*/
+.NFhidden {
+	opacity: 0;
+	z-index: -1;
+	position: relative;
+}
+
+/* Css For ContactUs Page */
+.ContactHead {
+	padding: 15px 0;
+	/*margin: 25px 0;*/
+	font: 18px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	/*color: #2B4F3F;*/
+	line-height: 20px;
+} 
+.ContactMid {
+	/*width: 1000px;
+	border: solid 1px #AFAFAF;
+	padding:  0; 
+	margin: 6px;*/
+}
+.ContactMidInn {
+	/*width: 988px;
+	padding: 10px 6px;
+	background-color: #f4f3f0;
+    border: 1px solid #CCCCCC;margin: 6px;*/
+}
+.ContactMidInn p {
+	margin: 0 0 30px 0;
+	/*font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;*/
+	line-height: 18px;
+}
+.ContactMidInn h1 {
+	margin: 0 0 5px 0;
+	/*font: bold 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;*/ /*color: #3366ff;*/
+	line-height: 18px;
+}
+.ContactMidInn h2 {
+	margin: 0 0 5px 0;
+	/*font: bold 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;*/
+}
+.IndFields {
+	margin: 0 auto;
+	padding: 0;
+	width: 580px;
+}
+.IndFields1 {
+	margin: 0;
+	padding: 0;
+	width: 450px;
+}
+.IndFields p {
+	padding: 0;
+	color: #3c3c3c;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	margin: 0 0 8px 0;
+}
+.IndFieldsInn {
+	padding: 10px;
+	margin: 0 0 10px 0;
+	background-color: #ededec;
+	border: solid 1px #d1d1d1;
+	width: 580px;
+}
+.NameField {
+	width: 180px;
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: right;
+	vertical-align: top;
+}
+.NameField1 {
+	width: 220px;
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+	text-align: right;
+	vertical-align: top;
+}
+.divCounter {
+	padding: 0 105px 0 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+.myAccountInput {
+	border: solid 1px #d5d1ce;
+	color: #3c3c3c;
+	font: 12px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 18px;
+}
+.myAccountInput1
+{
+	border: solid 1px #d5d1ce;
+	color: #3c3c3c;
+	font: 12px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 18px;
+	background-color: #eeedec;
+}
+.CoupInput {
+	border: solid 1px #dedbd0;
+	color: #c6c6c6;
+	font: 11px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 14px;
+}
+.ComboTxt {
+	border: solid 1px #d5d1ce;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+.Top10 {
+	padding: 5px 15px 0 0;
+}
+.PadRight
+{
+	padding: 4px 45px 0 0;
+}
+.SubBtn {
+	text-align: center;
+	padding: 10px 0 20px 80px;
+}
+.IPAdd {
+	padding: 0;
+	margin: 0 0 0 10px;
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.ContactConfirmMidInn {
+	height: 350px;
+	width: 988px;
+	padding: 10px 6px;
+	/*margin: 6px;*/
+	background-color: #f4f3f0;
+}
+.ContactConfirm {
+	padding: 15px 20px;
+	/*width: 430px;*/
+	margin: 0 auto;
+	/*border: solid 1px #d1d1d1;
+	background-color: #F4F3F0;*/
+}
+.ContactConfirm h1 {
+	padding: 0;
+	margin: 0 0 16px 0;
+	font: 16px/18px "Lucida Grande", "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+.ContactConfirm p {
+	padding: 0;
+	margin: 0 0 5px 0;
+	font: 14px/18px "Lucida Grande", "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+.ContactConfirm p a {
+	font: 14px/18px "Lucida Grande", "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+.ContactConfirm p a:hover {
+	text-decoration: underline;
+}
+
+.ConfirmPadding {
+	padding: 20px 0 0 0;
+}
+.BrowsingButton {
+	padding: 15px 0 0 0;
+	margin: 0 auto;
+	text-align: center;
+}
+/* CSS FOR Article Pages*/
+.ArticleInn {
+	/*width: 988px;
+	padding: 10px 6px;
+	background-color: #f4f3f0;*/
+}
+.ArticleInn h1 {
+	padding: 0;
+	margin: 0 0 15px 0;
+	font: bold 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.ArticleInn h2 {
+	padding: 0;
+	margin: 0 0 5px 10px;
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.ArticleInn p {
+	padding: 0;
+	margin: 0 0 15px 0;
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	text-align: justify;
+	line-height: 18px;
+	color: #3c3c3c;
+}
+.ArticleInn p a {
+	text-align: right;
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	text-align: justify;
+	line-height: 18px;
+	color: #3C3C3C !important;
+}
+.ArticleInn p a:hover {
+	text-decoration: underline;
+}
+.TermsofUseLink {
+	padding: 0;
+	margin: 0;
+	margin-left: 30px;
+}
+.TermsofUseLink ul {
+	list-style-type: decimal;
+	/*font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;*/
+	color: #272727;
+	margin-bottom: 20px;
+}
+.TermsofUseLink li {
+	padding: 0;
+	margin: 0;
+}
+.TermsofUseLink li a {
+	/*font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;*/
+	color: #272727;
+}
+.TermsofUseLink li a:hover {
+	color: #272727;
+	text-decoration: underline;
+}
+.ArticleHeader {
+	padding: 0;
+	margin: 0;
+}
+.ArticleHead {
+	margin: 10px 0 10px 0;
+	width: 300px;
+	float: left;
+	font: 20px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2B4F3F;
+}
+.ArticleLogo {
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+	float: right;
+}
+.ArticLeft {
+	padding: 0;
+	margin: 0;
+	width: 284px;
+	float: left;
+}
+.ArticLeft p {
+	padding: 0;
+	margin: 0 0 70px 0;
+}
+.ArticRight {
+	padding: 0;
+	margin: 0;
+	width: 610px;
+	float: right;
+}
+.ArticRight h1 {
+	padding: 0;
+	margin: 0 0 20px 0;
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c; /*color: #3366ff;*/
+	text-align: justify;
+	line-height: 18px;
+}
+.ArticRight p {
+	padding: 0;
+	margin: 0 0 20px 0;
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: justify;
+}
+/* Recently */
+.RecentBan {
+}
+.FractionsMain {
+	width: 490px;
+	margin: 0 auto;
+}
+.FractionsLeft {
+	float: left;
+	width: 226px;
+}
+.FractionsRight {
+	float: right;
+	width: 226px;
+}
+.FractionsLeft table, .FractionsRight table {
+    border: 1px solid #999999;
+} 
+.FractionsHead {
+	padding: 6px 0;
+	width: 105px;
+	font-size:13px;
+	color: #3c3c3c;
+	line-height: 19px;
+	background-color: #fff;
+	text-align: center;
+}
+.FractionsTd {
+	padding: 5px 0;
+	font-size:13px;
+	color: #3c3c3c;
+	text-align: center;
+}
+/* Css For Wish List Page */
+.WishListHeader {
+	padding: 0;
+	margin: 0;
+}
+.WishListHead {
+	margin: 5px 0;
+	width: 550px;
+	float: left;
+	font: 20px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2B4F3F;
+}
+.WishListHead span {
+	padding: 0;
+	margin: 5px 0 5px 10px;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.WishListHead span a {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #ff0000;
+}
+.WishListBrowsing {
+	padding: 0;
+	margin: 5px 0;
+	float: right;
+}
+.WishListBrowsing a {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.WishListBrowsing a:hover {
+	text-decoration: underline;
+}
+.WishlistPagin {
+	padding: 0;
+	margin: 0;
+	/*width: 1000px;*/
+}
+.WishlistPaginInner {
+	padding:0px;
+	/*width: 1000px;*/
+    margin:10px 0px;
+}
+.EmailWishList {
+	padding: 3px 0 0 0;
+	width: 450px;
+	float: left;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: right;
+}
+.EmailWishList a {
+	cursor: pointer;
+	padding: 0 0 0 5px;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.EmailWishList a:hover {
+	text-decoration: underline;
+}
+.TotalItems {
+	padding: 3px 0;
+	width: 150px;
+	float: left;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.TotalPrice {
+	padding: 3px 0;
+	width: 150px;
+	float: left;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: right;
+}
+.Update {
+	width: 139px;
+	float: right;
+	padding: 3px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.WishListTop {
+	padding: 0 10px;
+    /*width: 978px;*/
+	margin-top: 20px;
+    background:#f2f2f2;
+    border:1px solid #dddddd;
+    border-bottom:none;
+}
+.WishListBottom {
+	padding:10px 0;
+    /*width: 998px;*/
+	margin-bottom: 20px;
+    background:#f2f2f2;
+    border:1px solid #dddddd;
+}
+.WishListBlack {
+	padding: 8px 0 8px 0;
+	font: bold 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+	line-height: 18px;
+}
+.WishListBlack1 {
+	margin: 3px 0 3px 0;
+	font: bold 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.ShopBot {
+	padding: 0;
+	margin: 0;
+	font: bold 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.SerialNo {
+	width: 50px;
+	float: left;
+}
+.StyleImage {
+	width: 110px;
+	padding-left: 15px;
+	text-align: left;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.StyleInfo {
+	width: 160px;
+	padding-left: 15px;
+	text-align: left;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.Description {
+	width: 320px;
+	padding-left: 15px;
+	text-align: left;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.QtySize {
+	width: 95px;
+	/*padding-left: 15px;*/
+	text-align: center;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.Amount {
+	width: 115px;
+	/*padding-left: 15px;*/
+	text-align: center;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.Action {
+	width: 175px;
+	/*padding-left: 15px;*/
+	text-align: center;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.WishlistItem {
+	/*width: 998px;*/
+	border-top: solid 1px #d6d6d6;
+}
+.WishlistItemInner {
+	margin: 0;
+	padding: 6px;
+	/*width: 986px;*/
+	background-color: #ffffff;
+}
+.WishlistItemInner a {
+	text-decoration:none;
+	color:#3c3c3c;
+}
+.WishlistItemInner a:hover {
+	text-decoration:underline;
+}
+.SerialNoText {
+	width: 50px;
+	float: left;
+	margin: 10px 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+	line-height: 18px;
+}
+.StyleImageText {
+	width: 125px;
+	float: left;
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+	line-height: 18px;
+}
+.StyleInfoText {
+	width: 160px;
+	float: left;
+	padding: 0 0 0 20px;
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3C3C3C;
+	text-align: left;
+	line-height: 18px;
+}
+.StyleInfoText a {
+	text-decoration: none;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3C3C3C;
+	text-align: left;
+	line-height: 18px;
+}
+.StyleInfoText a:hover {
+	text-decoration: underline;
+}
+.StyleInfoText p {
+	text-align: left;
+}
+.DescriptionText {
+	width: 315px;
+	float: left;
+	padding: 0 0 0 20px;
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: left;
+}
+.DescriptionText a {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: left;
+	text-decoration: none;
+}
+.QtySizeText {
+	width:95px;
+	float: left;
+	/*padding: 0 0 0 20px;*/
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.AmountText {
+	width: 115px;
+	float: left;
+	/*padding-left: 20px;*/
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.ActionText {
+	width: 180px;
+	float: left;
+	margin: 10px 0;
+	/*padding-left: 20px;*/
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.ActionText a {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.SUpdate {
+	font: 12px/28px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.SUpdate:hover {
+	text-decoration:underline;
+}
+.ActionText a:hover {
+	text-decoration: underline;
+}
+/* Css For ECatalog */
+.ECatalogMain {
+	width: 860px;
+	padding: 10px 0;
+	margin: 0 auto;
+}
+.ECatlogShortImgs {
+	width: 426px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	background-color: #fff;
+	border: solid 1px #d1d1d1;
+}
+.ShortInner {
+	width: 414px;
+	margin: 6px;
+	padding: 0;
+	background-color: #ededec;
+}
+.ShortInnerMain {
+	width: 414px;
+	height: 475px;
+	background: url(../Images/ECatalogShortBg.gif) 0 6px;
+}
+.InnerMainTop {
+	width: 414px;
+	padding: 7px 0 0 0;
+}
+.MainTopLeft {
+	width: 204px;
+	float: left;
+	text-align: center;
+}
+.MainTopLeft h1 {
+	padding: 0 0 5px 0;
+	margin: 0;
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	font-style: italic;
+}
+.MainTopRight {
+	width: 204px;
+	float: right;
+	text-align: center;
+}
+.MainTopRight h1 {
+	padding: 0 0 5px 0;
+	margin: 0;
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	font-style: italic;
+}
+.InnerMainBot {
+	width: 414px;
+	padding: 40px 0 0 0;
+}
+.MainBotLeft {
+	width: 204px;
+	float: left;
+	text-align: center;
+}
+.MainBotLeft h1 {
+	padding: 0 0 5px 0;
+	margin: 0;
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	font-style: italic;
+}
+.MainBotRight {
+	width: 204px;
+	float: right;
+	text-align: center;
+}
+.MainBotRight h1 {
+	padding: 0 0 5px 0;
+	margin: 0;
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	font-style: italic;
+}
+.ECatlogBigImg {
+	width: 404px;
+	padding: 0;
+	margin: 0;
+	float: right;
+	background-color: #fff;
+	border: solid 1px #d1d1d1;
+}
+.LongInner {
+	width: 392px;
+	margin: 6px;
+	padding: 0;
+	background-color: #ededec;
+}
+#BigImage {
+	width: 328px;
+	margin: 0 auto;
+	padding: 30px 0 16px 0;
+}
+.BigImageDis {
+	padding: 0 0 15px 0;
+	font: bold 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+	line-height: 18px;
+}
+/* CSS FOR MEDIA */
+.MediaMain {
+	width: 838px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.MediaMainLeft {
+	width: 334px;
+	float: left;
+	border: solid 1px #d1d1d1;
+	background-color: #fff;
+}
+.MediaLeftInner {
+	margin: 6px;
+	width: 322px;
+	background-color: #ededec;
+}
+.watch_hadding {
+	margin: 0 0 5px 0;
+	background-color:#2B4F3F;
+	padding: 3px;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #fff;
+	text-align: center;
+	line-height: 18px;
+}
+.watch_inner {
+	padding: 0px;
+	margin: 0 auto;
+	width: 310px;
+	height: 378px;
+	overflow: auto;
+	text-align: center;
+}
+.MediaMainRight {
+	width: 458px;
+	float: right;
+	border: solid 1px #d1d1d1;
+	background-color: #fff;
+}
+.MediaRightInner {
+	height: 407px;
+	margin: 6px;
+	width: 446px;
+	background-color: #ededec;
+}
+.MediaYouTube {
+	width: 424px;
+	margin: 0 auto;
+	padding: 11px 0 0 0;
+}
+.MediaYouTube h1 {
+	padding: 0 0 5px 0;
+	margin: 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.YouTubeImgMain {
+	padding: 0;
+	margin: 5px 0 0 0;
+}
+.YouTubeimage {
+	padding: 0;
+	margin: 0;
+	float: left;
+	width: 120px;
+	text-align: left;
+}
+.YouTubeimage a {
+	width: 90px;
+	display: block;
+}
+.YouTubeimage a:hover {
+	display: block;
+}
+.YouTubeimage_text {
+	vertical-align: top;
+	text-align: left;
+	font: normal 13px 'Times New Roman' , Times, serif;
+	color: #3c3c3c;
+	float: left;
+	line-height: 18px;
+}
+.YouTubeimage_text a {
+	font: normal 13px 'Times New Roman' , Times, serif;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+.YouTubeimage_text a:hover {
+	text-decoration: underline;
+}
+.MediaMainLeftInner {
+	width: 335px;
+	border: solid 1px #c6b5a3;
+	background-color: #fff;
+}
+.imgbrdSml {
+	margin: 0 0 5px 0;
+	border: solid 1px #d6d5d4;
+	display: block;
+	width: 50px; /*62*/
+	background-color: #fff;
+}
+.imgbrdSml:hover {
+	border: solid 1px #999999;
+	display: block;
+	width: 50px; /*62*/
+}
+.imgbrdSm2 {
+	margin: 0 0 5px 0;
+	border: solid 1px #d6d5d4;
+	display: block;
+	width: 90px;
+	background-color: #fff;
+}
+.imgbrdSm2:hover {
+	border: solid 1px #c1bfbe;
+	display: block;
+	width: 90px;
+}
+/*****************************************************************
+		CSS FOR DIAMOND EDUCATION PAGE
+					22_May_2010
+******************************************************************/
+#topnav {
+	clear: both;
+	padding: 2px 0;
+	margin: 0 auto;
+	width: 785px;
+	text-transform: none;
+	text-align: left;
+}
+#topnav ul {
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+	list-style-type: none;
+	font-size: 12px;
+	text-align: center;
+}
+#topnav li {
+	float: left;
+	margin: 0;
+	line-height: normal;
+	list-style-type: none;
+}
+#topnav li a {
+	display: block;
+	font-size: 14px;
+	color: #3c3c3c;
+	background: url(../Images/bg-nav3.png) no-repeat 0px 0px;
+	height: 28px;
+	text-align: center;
+	text-decoration: none;
+	border-width: 0;
+	padding: 7px 25px 0 25px;
+	margin: 0;
+	width: auto;
+}
+#topnav li.first a {
+	background: url(../Images/bg-nav-first3.png) no-repeat;
+}
+#topnav li.last a {
+	background: url(../Images/bg-nav-last3.png) no-repeat;
+	/*width: 55px;*/
+}
+#topnav li a:hover {
+	background-position: 0px -45px;
+	display: block;
+	color: #fff;
+}
+#topnav li#active a {
+	background-position: 0px -45px;
+	color: #fff;
+}
+#topnav li#CurentTab a {
+	background: url(../Images/first3Select.png) no-repeat;
+	/*width: 55px;*/
+	color: #fff;
+}
+#topnav li#CurentTabMid a {
+	background: url(../Images/bg-nav3Select.png) no-repeat;
+	color: #fff;
+}
+#topnav li#CurentTabLast a {
+	background: url(../Images/last3Select.png) no-repeat;
+	/*width: 55px;*/
+	color: #fff;
+}
+#SubMenu {
+	clear: both;   
+	padding: 2px 0;
+	margin: 0 auto;
+	width: 755px;
+	text-transform: none;
+	text-align: left;
+}
+#SubMenu ul {
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+	list-style-type: none;
+	text-align: center;
+}
+#SubMenu li {
+	float: left;
+	margin: 5px 30px;
+	line-height: normal;
+	list-style-type: none;
+}
+#SubMenu li a {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+#SubMenu li a:hover {
+	text-decoration: underline;
+}
+#SubMenu li#Current a {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+	text-decoration: underline;
+}
+#SubMenu1 {
+	clear: both;
+	padding: 2px 0;
+	margin: 0 auto;
+	width: 720px;
+	text-transform: none;
+	text-align: left;
+}
+#SubMenu1 a {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+#SubMenu1 a:hover {
+	text-decoration: underline;
+}
+#SubMenu1 #Current a {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+	text-decoration: underline;
+}
+.EducationMid {
+	padding: 0;
+	margin: 15px 0 0 0;
+}
+.EducationMid h1 {
+	padding: 0;
+	margin: 0 0 20px 0;
+	font: 19px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #000;
+	line-height: 18px;
+}
+.EducationMid h2 {
+	padding: 0;
+	margin: 20px 0 10px 0;
+	font: bold 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+    text-align:left;
+    display:block;
+}
+.EducationMid p {
+	padding: 0;
+	margin: 0 0 15px 0;
+	/*font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;*/
+	line-height: 18px;
+	text-align: justify;
+    display:block;
+}
+.educationinttext {
+	font-size: 13px;
+	color: #3c3c3c;
+	line-height: 18px;
+}
+.EducationMid Ul {
+	list-style-type: lower-roman;
+}
+.EducationMid li {
+	padding: 5px 0 0 0;
+	margin: 0;
+	/*font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;*/
+	line-height: 18px;
+	text-align: justify;
+}
+.EducationMid1 ul {
+	margin: 0 0 0 15px;
+	padding: 0;
+}
+.EducationMid1 li {
+	padding: 0;
+	margin: 15px 0 0 0;
+	/*font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;*/
+	line-height: 18px;
+	text-align: justify;
+	list-style-type: disc;
+}
+/* Education Test */
+.table_bg_brd, .adminstoreheadbg {
+	background-color: #ededec;
+	border: solid 1px #d1d1d1;
+	padding: 7px;
+}
+.eduGlossary {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 14px;
+	color: #000;
+	font-weight: bold;
+	padding-top: 3px;
+	text-decoration: none;
+	text-align: justify;
+}
+a.eduGlossary:link {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #000;
+	font-weight: bold;
+	padding-top: 3px;
+	text-decoration: none;
+	text-align: justify;
+}
+.eduGlossary:visited {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #000;
+	font-weight: bold;
+	padding-top: 3px;
+	text-decoration: none;
+	text-align: justify;
+}
+a.eduGlossary:hover {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	line-height: 14px;
+	color: #000;
+	font-weight: bold;
+	padding-top: 3px; /*text-decoration: underline;*/
+	text-align: justify;
+}
+.eduGlossary:active {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #000;
+	font-weight: bold;
+	padding-top: 3px;
+	text-decoration: none;
+	text-align: justify;
+}
+/* Css For My Account Pages */
+.MyAccountMid {
+	padding: 15px;
+	margin: 0 auto;
+	width: 620px;
+	background-color: #f0eae4;
+	border: solid 1px #dfd4cf;
+}
+.MyAccountMid h1 {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+.MyAccountMid p {
+	padding: 0;
+	margin: 0 0 20px 0;
+}
+.MyAccountAdmin {
+	padding: 0;
+	margin: 0;
+}
+.MyAccountAdmin h1 {
+	padding: 0;
+	margin: 20px 0 5px 0;
+}
+.MyAccountAdmin p {
+	padding: 0;
+	margin: 3px 0 0 10px;
+	font: normal 13px 'Times New Roman' , Times, serif;
+	color: #3c3c3c;
+	line-height: 18px;
+	width: 500px;
+	text-align: justify;
+}
+.MyAccountAdmin p a {
+	text-decoration: none;
+	font: normal 14px 'Times New Roman' , Times, serif;
+	color: #2B4F3F;
+	line-height: 18px;
+}
+.MyAccountAdmin p a:hover {
+	text-decoration: underline;
+}
+.AdminLeftMenu {
+	width: 192px;
+	float: left;
+	background-color: #fff;
+	border: solid 1px #bfac99;
+}
+.AdminLeftMenuInn {
+	width: 180px;
+	margin: 6px;
+	float: left;
+	background-color: #fff9e8;
+}
+.AdminLeftMenuInn h1 {
+	padding: 0;
+	margin: 10px 5px;
+	color: #3366ff;
+	font: bold 18px 'Times New Roman' , Times, serif;
+	line-height: 18px;
+}
+.AccountHead {
+	padding: 3px;
+	margin: 0;
+	background-color: #e9dfd1;
+	font: bold 12px 'Times New Roman' , Times, serif;
+	color: #584625;
+}
+.LeftSubMenu {
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+.LeftSubMenu p {
+	padding: 0;
+	margin: 5px 0 0 10px;
+}
+.LeftSubMenu p a {
+	text-decoration: none;
+	font: bold 13px 'Times New Roman' , Times, serif;
+	color: #2B4F3F;
+}
+.LeftSubMenu p a:hover {
+	color: #584625;
+}
+.LeftSubMenu p .SubCurrent {
+	color: #584625;
+}
+.AdminRight {
+	padding: 0;
+	margin: 0;
+	width: 690px;
+	float: right;
+}
+.AdminRight p {
+	padding: 0;
+	margin: 12px 0 0 0;
+}
+.AdminRight p a {
+	color: #3c3c3c;
+}
+.AdminRight p a:hover {
+	text-decoration: underline;
+}
+.AdminRight h2 { 
+	padding: 0;
+	margin: 12px 0 8px 0;
+	font: bold 13px 'Times New Roman' , Times, serif;
+	color: #3c3c3c;
+	line-height: 16px;
+}
+.InformationBox {
+	padding: 10px;
+	margin: 0;
+	background-color: #EDEDEC;
+	border: solid 1px #D1D1D1;
+}
+.RequestText {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	width: 265px;
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+.RequestText1 {
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	width: 198px;
+	text-align: right;
+	padding-right: 2px;
+	padding-top: 5px;
+}
+.txtInputRequestForm {
+	border: 1px solid #d5d1ce;
+	width: 260px;
+	height: 16px;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3e3b3b;
+}
+.txtInputRequestForm1 {
+	border: 1px solid #a9a9a9;
+	width: 260px;
+	height: 16px;
+	background-color: #c8c8c8;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #878383;
+}
+.messageError {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 14px;
+	color: #ff0000;
+	font-size: 10px;
+	padding-top: 3px;
+	text-align: left;
+}
+.messageError1 {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #ff0000;
+}
+.SaveCan {
+	text-align: center;
+	margin: 15px 0;
+}
+.SaveCan a {
+	text-align: center;
+	margin: 10px;
+}
+.JewelerMidd {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+}
+.JewelerLeft {
+	width: 490px;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.JewelerLeft p {
+	padding: 0;
+	margin: 0 0 10px 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+}
+.ExistingAccount {
+	background-color: #ededec;
+	border: solid 1px #d1d1d1;
+    padding-bottom:6px;
+}
+.ExistingAccount h1 {
+	margin: 0;
+	padding: 2px 0 3px 8px;
+	background-color:#888888;
+	font: bold 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #fff;
+}
+.ExistingAccount p {
+	margin: 0 auto;
+	padding: 10px;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 18px;
+	/*width: 520px;*/
+}
+.ExistingAccount p a {
+	color: #3c3c3c;
+}
+.ExistingAccount p a:hover {
+	text-decoration: underline;
+}
+.Loginareia {
+	width: 370px;
+	margin: 0 auto;
+	padding: 0;
+}
+.LoginText {
+	padding: 0 5px 0 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: right;
+}
+.myactextSimple {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.myactextSimple a {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-decoration: underline;
+}
+.myactextSimple:hover {
+	text-decoration: underline !important;
+}
+.myactextSimple a:hover {
+	text-decoration: underline !important;
+}
+.Request {
+	padding: 0;
+	margin: 45px 0 35px 52px;
+}
+.Request p {
+	padding: 0;
+	margin: 5px 0 18px 0;
+}
+.AccountRequest {
+	width: 725px;
+	margin: 0 auto;
+	padding: 0;
+}
+.AccountRequest p {
+	padding: 0;
+	margin: 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 16px;
+}
+.AccountRequest h1 {
+	padding: 0;
+	margin: 15px 0 5px 0;
+	font: bold 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	line-height: 16px;
+}
+.AccountRequestInn {
+	background-color: #ededec;
+	border: solid 1px #d1d1d1;
+	padding: 10px 0;
+	margin: 0;
+}
+.IpAddress {
+	margin: 20px 0;
+}
+.IpAddress p {
+	padding: 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	margin: 10px 0 0 0;
+}
+.IpAddress p a {
+	color: #3c3c3c;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.IpAddress p a:hover {
+	text-decoration: underline;
+}
+/* Css For Footer */
+#Footer {
+	width: 100%;
+	margin: 5px 0 0 0;
+	padding-top:10px;
+	float:left;
+    background:#332329;
+}
+.FooterLinks {
+	padding: 0;
+	margin: 0;
+	color: #FFFFFF;
+	text-align: left;
+}
+.FooterLinks a {
+	padding: 0;
+	margin: 0 3px;
+	font: 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #FFFFFF;
+}
+.FooterLinks a:hover {
+	color: #4bb484;
+	text-decoration: underline;
+}
+.footer-left {
+    float:left;
+    width:68%;
+}
+.footer-right {
+    float:right;
+    width:35%;
+    margin-top: 5px;
+}
+.footer-buying-groups {
+    float:left;
+    width:100%;
+    margin-top:0px;
+}
+.footer-buying-groups img {
+    width:75px;
+    height:37px;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+#IDoAddress {
+	padding: 0;
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #FFFFFF;
+	line-height:21px;
+}
+#IDoAddress a {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #FFFFFF;
+}
+#IDoAddress a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+#IDoRights {
+	color: #C3C3C3;
+    float: left;
+    font: 12px/18px "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+    margin: 10px 0 0;
+    padding: 10px 0;
+    text-align: left;
+    text-transform: uppercase;
+    width: 630px;
+}
+.FaceBook {
+	vertical-align: middle;
+}
+.LeftMenuSelect {
+	color: #584624;
+	text-decoration: underline;
+}
+.MainMenuSelect {
+	color: #fff;
+	text-decoration: underline;
+}
+/* Css For New Product List Page */
+.StylePriceStrickOut {
+	text-decoration: line-through;
+	/*line-height: 28px;*/
+}
+.SalePriceColor {
+	/*color: #d50505;*/
+}
+.image_text {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #717070;
+	float: left;
+	padding: 0 0 0 10px;
+	width: auto;
+	text-align: left;
+	width: 170px;
+}
+.image_text a {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #717070;
+	float: left;
+	width: auto;
+	text-align: left;
+	text-decoration: none;
+}
+.image_text a:hover {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #717070;
+	float: left;
+	width: auto;
+	text-align: left;
+	text-decoration: underline;
+}
+.image_text a:selected {
+	font: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #717070;
+	float: left;
+	width: auto;
+	text-align: left;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.tv_image {
+	float: left;
+	padding: 0;
+}
+.SRPera {
+	font: bold 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.SRPera a {
+	font: normal 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.SRPera1:hover {
+	text-decoration:underline;
+}
+.SRTxb {
+	border: solid 1px #d6d4d4;
+	width: 260px;
+	height: 18px;
+	font: normal 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #636363;
+}
+.SRData {
+	margin: 10px 0;
+	width: 230px;
+	font: normal 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #5c5c5c;
+}
+.SRData p
+{
+	font: normal 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #5c5c5c;
+	padding: 0;
+	margin: 0;
+}
+.SRData a {
+	text-decoration: none;
+	font: normal 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #5c5c5c;
+}
+.SRData a:hover {
+	text-decoration: underline;
+}
+.SRData1 {
+	margin: 10px 0;
+	font: normal 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #fff;
+}
+.SRDataHighlight a {
+	text-decoration: underline;
+	font: normal 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #fff;
+}
+.SRData1 a {
+	text-decoration: none;
+	font: normal 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #fff;
+}
+.SRData1 a:hover {
+	text-decoration: underline;
+}
+.SRDataMap a {
+	text-decoration: none;
+	font: normal 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #5c5c5c;
+}
+.SRDataMap a:hover {
+	text-decoration: none;
+	color: #91766d;
+}
+.StoreLocation a {
+	text-decoration: none;
+	color: #3480c6;
+}
+.StoreLocation a:hover {
+	text-decoration: underline;
+}
+.OrderByPhoneBott {
+	padding: 0;
+	margin: 20px 0 0 0;
+}
+.OrderByPhoneBott h1 {
+	padding: 0;
+	margin: 0 0 10px 0px;
+	font: bold 15px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #5c5c5c;
+}
+.OBPhoneTop {
+	padding: 0 10px;
+    /*width: 978px;*/
+	margin-top: 20px;
+    background:#f2f2f2;
+    border:1px solid #dddddd;
+    border-bottom:none;
+}
+.OBPBlack {
+	padding: 8px 0;
+	font: bold 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+	line-height: 18px;
+}
+.OBPSerialNo {
+	width: 50px;
+	float: left;
+}
+.OBPStyleImage {
+	width: 110px;
+	padding-left: 15px;
+	text-align: left;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.OBPStyleInfo {
+	width: 200px;
+	padding-left: 15px;
+	text-align: left;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.OBPDescription {
+	width: 320px;
+	padding-left: 15px;
+	text-align: left;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.OBPQtySize {
+	width: 95px;
+	/*padding-left: 15px;*/
+	text-align: center;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.OBPAmount {
+	width: 185px;
+	/*padding-left: 15px;*/
+	text-align: center;
+	float: left;
+	border-left: 1px solid #d6d6d6;
+}
+.OBPSerialNoText {
+	width: 50px;
+	float: left;
+	margin: 10px 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.OBPStyleImageText {
+	width: 125px;
+	float: left;
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.OBPStyleInfoText {
+	width: 200px;
+	float: left;
+	padding: 0 0 0 20px;
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3C3C3C;
+	text-align: left;
+}
+.OBPStyleInfoText a {
+	text-decoration: none;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3C3C3C;
+	text-align: left;
+}
+.OBPStyleInfoText a:hover {
+	text-decoration: underline;
+}
+.OBPStyleInfoText p {
+	text-align: left;
+}
+.OBPDescriptionText {
+	width: 315px;
+	float: left;
+	padding: 0 0 0 20px;
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: left;
+}
+.OBPDescriptionText a {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: left;
+	text-decoration: none;
+    float:left;
+}
+.OBPQtySizeText {
+	width: 95px;
+	float: left;
+	/*padding: 0 0 0 15px;*/
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.OBPAmountText {
+	width: 115px;
+	float: left;
+	padding: 0;
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+.PaymentOpt a {
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.PaymentOpt a:hover {
+	text-decoration: underline;
+}
+.orderComp {
+	float: left;
+	width: 210px;
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	margin: 0 0 0 10px;
+	padding: 3px 0;
+}
+.orderComp p {
+	padding: 0;
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+}
+.orderComp1 {
+	float: left;
+	width: 257px;
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	margin: 0 0 0 10px;
+	padding: 3px 0;
+}
+.orderComp1 p {
+	padding: 0;
+	margin: 0;
+	font: 12px/28px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.OrderCont {
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	width: 235px;
+	float: left;
+	padding: 3px 22px;
+	margin: 0;
+}
+.OrderCont p {
+	padding: 0;
+	margin: 10px 0;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+}
+.OrderCont1 {
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	width: 235px;
+	float: left;
+	padding: 3px 14px;
+	margin: 0 0 0 12px;
+}
+.OrderCont1 p {
+	padding: 0;
+	margin: 0;
+	font: 12px/28px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+}
+.OrderPurchase {
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	width: 220px;
+	float: left;
+	padding: 3px 0;
+}
+.OrderPurchase1 {
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	width: 220px;
+	float: left;
+	padding: 3px 0;
+	margin: 0 0 0 10px;
+}
+.OrderPurchase1 p {
+	padding: 0;
+	margin: 0;
+	font: 12px/28px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+}
+.OrderShipTo {
+	font: bold 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	float: left;
+	padding: 3px 0;
+	margin: 0 0 0 10px;
+}
+.OrderShipTo p {
+	padding: 0;
+	margin: 0;
+	font: 12px/28px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.OrderCartTop {
+	padding: 0;
+	margin: 0;
+	width: 926px;
+    /*background: url(../Images/OrderCartTopBg.gif);*/
+    background-color:#F8F8F7;
+	height: 179px;
+}
+.OrderCartBox {
+	border: solid 1px #989494;
+	width: 105px;
+	height: 15px;
+	color: #5b5e60;
+	font: 12px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+}
+.OrderTop {
+	width: 1000px;
+	padding: 0;
+	margin: 0 auto;
+}
+.OrderTOpSerial {
+	width: 30px;
+	float: left;
+}
+.OrderTOpImage {
+	width: 125px;
+	float: left;
+}
+.OrderTopInfo {
+	width: 120px;
+	float: left;
+}
+.OrderTopDescription {
+	width: 220px;
+	float: left;
+}
+.OrderTopQtySize {
+	width: 100px;
+	float: left;
+}
+.OrderTopAmount {
+	width: 80px;
+	float: left;
+}
+.OrderTopAction {
+	width: 80px;
+	float: left;
+}
+.OrderTopInstructions {
+	width: 140px;
+	float: left;
+}
+#cbaButton img {
+    margin: 0px 0 22px 0;
+}
+.WhereToBuyBox {
+	border: solid 1px #AFAFAF;
+	width: 274px;
+	margin: 2px;
+	padding: 6px;
+	background-color: #ceecdf;
+}
+#overview #featurettes ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#overview #featurettes li {
+	padding: 0;
+	margin: 0;
+	height: 160px;
+}
+#overview #featurettes li a {
+	display: block;
+	position: relative;
+	padding: 0;
+	text-decoration: none;
+	color: #3c3c3c;
+	height: 160px;
+	cursor: pointer;
+}
+#overview #featurettes li h3 {
+	padding: 6px 0 6px 10px;
+	margin: 0;
+	font: bold 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #5c5c5c;
+}
+#overview #featurettes li p {
+	margin: 0;
+	padding: 0 0 6px 10px;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+#overview #featurettes li img {
+	display: block;
+}
+#overview #featurettes li a:hover {
+	/*background: url(../Images/index-featurette-hover-20100607.png) repeat-x;*/
+}
+.xyz {
+	padding:0;
+	margin:6px;
+}
+.xyz ul {
+	padding:0;
+	margin:0;
+}
+.xyz li {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+.WhereToBuyBox1 {
+	/*border: solid 1px #AFAFAF;
+	width: 254px;
+	margin: 0;
+	padding: 6px;
+	background-color: #ceecdf;*/
+}
+#overview1 #featurettes1 ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#overview1 #featurettes1 li {
+	padding: 0;
+	margin: 5px;   /*0*/
+	/*height: 160px;*/
+}
+#overview1 #featurettes1 li a {
+	padding: 0;
+	text-decoration: none;
+	color: #3c3c3c;
+	/*height: 160px;*/
+	cursor: pointer;
+	display:block;
+}
+#overview1 #featurettes1 li h3 {
+	padding: 6px 0 6px 10px;
+	margin: 0;
+	font: bold 14px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #000;
+}
+#overview1 #featurettes1 li p {
+	margin: 0;
+	padding: 0 0 6px 10px;
+	font: 12px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #333333;
+}
+#overview1 #featurettes1 li img {
+	display: block;
+}
+#overview1 #featurettes1 li a:hover {
+	/*background: url(../Images/index-featurette-hover-20100607.png) repeat-x;*/
+}
+
+
+
+.content a em.more {
+	font-style: normal;
+	color: #3c3c3c;
+	white-space: nowrap;
+	zoom: 1;
+	cursor: pointer;
+}
+.content a:hover em.more
+{
+	text-decoration: underline;
+}
+.POPopupHead {
+	font: bold 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2B4F3F;
+	margin: 10px 0;
+	text-align: left;
+}
+.POPopupBG {
+	background-color: #ededec;
+	border: solid 1px #d1d1d1;
+	padding: 10px;
+}
+.termsOfUseText {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.termsOfUseText a {
+	text-decoration: none;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+}
+.termsOfUseText a:hover {
+	text-decoration: underline;
+}
+.Cursor {
+	cursor: pointer;
+}
+.enterCity {
+	font: 11px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #3c3c3c;
+	padding: 0 0 0 100;
+}
+.popupSubHead {
+	/* subhead table */
+	height: 14px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #343232;
+	background-color: #dedede;
+	padding-left: 3px;
+}
+.popupDesc{
+	margin: 5px 0 10px 0;
+	padding:0;
+}
+.popupDesc p {
+	/*width: 276px;*/
+	font: 11px/13px lucida grande , lucida sans unicode , arial, verdana, sans-serif;
+	color: #3c3c3c;
+	padding: 0;
+	text-align: justify;
+}
+.popupShortDesc {
+	font-size: 14px;
+	color: #202020;
+	margin-top: 18px;
+	padding: 0;
+	text-align: justify;
+}
+.popupLongDesc {
+	font-size: 13px;
+	color: #454545;
+	padding: 0;
+	text-align: justify;
+}
+.popupTbl {
+	/* table */
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+}
+.popupTblLeft {
+	margin:0;
+	width: 150px;
+	font-weight: bold;
+	background-color: #ededed;
+	padding-left: 3px;
+	font-size:10px;
+	border-bottom:solid 1px #fff;
+	height:2px;
+	color:#595959;
+}
+.popupTblRight {
+	/* table right column */
+	background-color: #ededed;
+	padding-left: 3px;
+	border-bottom:solid 1px #fff;
+	border-left:solid 1px #fff;
+}
+.popupDescStyle {
+	margin: 0 0 5px 0;
+	padding: 0; 
+	font: bold 13px/18px Lucida Grande , Lucida Sans Unicode , Arial, Verdana, sans-serif;
+	color: #1e1e1c; 
+}
+.popupDescPrice {
+	margin: 0 0 5px 0;
+	padding: 0; 
+	font: bold 13px/18px Lucida Grande , Lucida Sans Unicode , Arial, Verdana, sans-serif;
+	color: #1e1e1c; 
+}
+.MetalInfo {
+	padding:0;
+	margin:0;
+}
+.CSInfo {
+	padding:0;
+	margin:8px 0;
+}
+.SSInfo {
+	padding:0;
+	margin:0;
+}
+.popupImage {
+	width: 229px;
+	height: 229px;
+	margin:0 2px 0 0;
+	text-align:center;
+}
+.popBigImg {
+}
+.popupThumbnail {
+	margin:10px 0;
+}
+.popupThumbnail img {
+	border:solid 1px #d9ccc1;
+	width:50px;
+	height:50px;
+	margin:0 5px;
+}
+.popupThumbnail img:hover {
+	border:solid 2px #AFAFAF;
+	width:48px;
+	height:48px;
+}
+.popupInfo {
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: 10px;
+	color: #14597a;
+	text-align: center;
+	height: 60px;
+}
+.popupStyle {
+	height: 13px;
+	margin: 5px 0 8px 0;
+	color:#2B4F3F;
+	font-size:12px;
+	font-weight:bold;
+}
+.popupPrice {
+	color: #1e1e1c;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.popupBtn {
+	margin:20px 0 0 0;
+	height: 22px;
+}
+.SRLink:hover {
+	text-decoration:underline;
+}
+.navigation {
+	   width:1000px;
+	   margin-top:0px;
+	   margin-bottom:10px;
+	   border-radius:4px;
+	   height:48px;
+}
+.navigation ul {
+	    margin:0px;
+	    padding:0px;
+	    color:#3e4646;
+	    list-style-type:none;
+	    width:1000px;
+}
+.navigation ul li {
+	    float:left;
+}
+.navigation ul li {
+	    float:left;
+}
+.navigation ul li a { 
+	  height:47px;
+	  line-height:47px;
+	  padding-right:23px;
+	  padding-left:24px;
+	  display:block;
+	  text-transform:uppercase;
+	  font-weight:800px;
+	  font-size:15px;
+	  color:#FFFFFF;
+}
+.navigation ul li a:hover { 
+		 color:#6bc098;
+	     display:block;
+         text-decoration:none;
+	     /*background:#234e3a;*/
+} 
+.searchdiv {
+	padding: 0;
+	margin: 0 5px 0 0;
+	text-align: right;
+	color:#dfdfdf;
+}
+/* new index css */
+.bridal_ring {
+	padding: 0;
+	margin: 0 0px 0 0;
+	float: left;
+    width: 275px;
+	height: 178px;
+}
+.bridal_ring h1 {
+	padding: 8px 0 8px 15px;
+	margin: 0;
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2b4f3f;
+	text-transform:uppercase;
+}
+.bridal_ring h1 a {
+	font: 16px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #2b4f3f;
+}
+.bridal_ringh1 a:hover {
+	text-decoration: underline;
+}
+.bridal_ring p {
+	padding-left: 15px;
+	margin: 0;
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #131313;
+	line-height: 18px;
+	padding-top:12px;
+}
+.bridal_ring p a {
+	font: 13px/18px "Lucida Grande" , "Lucida Sans Unicode" , Arial, Verdana, sans-serif;
+	color: #131313;
+	line-height: 18px;
+}
+.prods .bridal_ring a:hover .more {
+	text-decoration: underline;
+}
+.Bridal_shadow {
+	padding:0px;
+	margin-right:10px;
+	float: left;
+	background: url(../Images/shadow.gif) no-repeat;
+	width: 300px;
+	height:14px;
+	background-position:0px -2px
+}
+.Bridal_shadow_sec {
+	padding:0px;
+	margin: 0 0x 0 0;
+	float: left;
+	background: url(../Images/bx_shadow.png) no-repeat;
+	width: 10px;
+	height:178px;
+	background-position:5px 10px;
+	
+}
+.bridal_ring_img1 {
+    background: url(../Images/Bridal-Engagement.png) no-repeat;
+}
+.bridal_ring_img2 {
+    background: url(../Images/Bridal-Ring.png) no-repeat;
+}
+/*.bridal_ring_img2:hover {
+    background: url(../Images/Bridal-Ring.png) no-repeat;
+}*/
+.bridal_ring_img3 {
+    background: url(../Images/Bridal-Pendants.png) no-repeat;
+}
+.bridal_ring_img4 {
+    background: url(../Images/Bridal-Earrings.png) no-repeat;
+}
+.bridal_ring_img5 {
+    background: url(../Images/Bridal-Bracelets.png) no-repeat;
+}
+.bridal_ring_img6 {
+    background: url(../Images/Bridal-Gemstone.png) no-repeat;
+}
+.searchdivnew {
+	width:400px;
+}
+.searchdivnew ul { 
+	margin:0px;
+	padding:0px;
+}
+.searchdivnew ul li {
+    float:right;
+    margin-left:15px;
+}
+/* product slider */
+.pro_slider {
+    width:1000px;
+    background: url(../Images/pro-slider-bg.jpg) no-repeat;
+    height:419px;
+    margin:0 auto 10px auto;    
+}
+.pro_slider ul {
+    padding:0px;
+    margin:0px;
+}
+.pro_slider ul li {
+   float: left;
+    height: 188px; 
+    margin-right: 23px;
+    margin-bottom: 23px;
+    width: 316px;
+    border:1px solid #b1b1b1;
+}
+.pro_slider ul li:hover {
+    border:1px solid #388763;
+}
+.pro_slider ul li a:hover {
+    cursor:pointer;
+}
+.pro_slider ul li:hover h1 {
+    text-decoration:underline;
+    cursor:pointer;
+}
+.jcarousel-skin-tango li h1 {
+    text-decoration:none;
+}
+.jcarousel-skin-tango li h1 :hover {
+    text-decoration:underline;
+}
+.toplinksec {
+     width:450px; 
+     float:right;
+}
+.toplinksec ul {
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+.toplinksec ul li {
+   float:right;
+   margin-left:20px;
+}
+.toplinksec_nonShoppingBagDiv {
+     width:400px; 
+     float:right;
+     margin: 0px, 10px, 50px, 30px;
+}
+.toplinksec_nonShoppingBagDiv ul {
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+}
+.toplinksec_nonShoppingBagDiv ul li {
+   float:right;
+   margin-left:10px;
+}
+.serinput { 
+    height: 26px;
+    padding-left: 10px;
+    border-right:none;
+    background: url(../Images/Search-box-n.png) no-repeat;
+    width:160px;
+    border:none;
+}
+.navigation_b2c {
+	    width:1000px;   
+	   margin-bottom:10px;
+	    border-radius:4px;
+	 height:48px;
+}
+.navigation_b2c ul {
+	    margin:0px;
+	    padding:0px;
+	    color:#3e4646;
+	    list-style-type:none;
+}
+.navigation_b2c ul li {
+	    float:left;
+}  
+.navigation_b2c ul li a { 
+	    height:47px;
+	    line-height:47px;
+	    padding-right:23px;
+	    padding-left:24px;
+	    display:block;
+	    text-transform:uppercase;
+	    font-weight:800px;
+	    font-size:15px;
+	    color:#FFFFFF;
+}
+.navigation_b2c ul li a:hover { 
+		 color:#6bc098;
+	     display:block;
+         text-decoration:none;
+	     /*background:#234e3a;*/
+}   
+.pro_slider_b2cc {
+ width:1000px;
+    background: url(../Images/pro-slider-bg.jpg) no-repeat;
+    height:419px;
+    margin:0 auto 10px auto;
+}
+.pro_slider_b2cc ul {
+    padding:0px;
+    margin:0px;
+}
+.pro_slider_b2cc ul li a:hover {
+    cursor:pointer;
+}
+.pro_slider_b2cc ul li:hover h1 {
+    text-decoration:underline;
+    cursor:pointer;
+}
+.pro_slider_b2cc ul li {
+   border: 1px solid #B1B1B1;
+    float: left;
+    height: 188px;
+    margin-bottom: 23px;
+    margin-right: 23px;
+    width: 316px;
+}
+.pro_slider_b2cc ul li:hover {
+      border:1px solid #388763;
+}  
+.jewelerypagemiddle {
+    margin:0px;
+}  
+.col-offset-top-7 {
+    margin-top:7px;
+}    
+
+
+
+
+/*********************** flash style ***********************/
+/* RESET */
+ol, ul {
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+/* ALL ROUNDED CORNER BOXES */
+.rounded-10 {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.rounded-5 {
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+}
+/* SIDEBAR */
+#sidebar .widget {
+	margin-bottom: 15px;
+	padding: 15px;
+	position: relative;
+}
+#sidebar .widget p {
+	font-size: 11px;
+}
+#sidebar h2 {
+	font-size: 20px;
+	margin: 0 0 10px 0;
+}
+#sidebar .widget li a {
+	padding: 3px 0px 3px 15px;
+	display: block;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	text-decoration: none;
+}
+#sidebar .widget li a:hover {
+	text-decoration: none;
+}
+#sidebar .widget li a.current_page_item {
+	font-weight: bold;
+}
+#sidebar .widget ul {
+	padding: 0;
+	margin-left: 2px;
+}
+#sidebar .widget li {
+	list-style: none;
+}
+#sidebar .widget ul ul {
+	padding: 0 0 0 10px;
+	margin-left: 2px;
+}
+
+
+
+
+
+/*********************** slider ***********************/
+.jcarousel-skin-tango .jcarousel-container {
+   /* background: #F0F6F9;*/
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 900px;
+    height:200px;
+    padding:0px 12px 0px 12px;   
+}
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    /*width: 280px;*/    /*75*/
+    /*height: 245px;*/
+    padding: 40px 20px;
+}
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    height: 194px;
+    width:900px;
+  /* background-color:Black;*/
+}
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  142px;   /*75*/
+    height: 435px;  /*420*/
+    margin: 0 auto;
+}
+.jcarousel-skin-tango .jcarousel-item {
+    width: 294px;
+    height: 75px;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 7px;
+    height:194px;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal {			/* Horizontal Buttons */
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../Images/next-horizontal.png) no-repeat 0 0;
+    z-index:9999;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(prev-horizontal.png);
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+    background-position: -32px 0;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 90px;
+    left:-5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(../Images/prev-horizontal.png) no-repeat 0 0;
+    z-index:9999;
+}
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(next-horizontal.png);
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+    background-position: -32px 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+/* Vertical Buttons */
+/*.jcarousel-skin-tango .jcarousel-next-vertical {			
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-vertical.png) no-repeat 0 0;
+}
+.jcarousel-skin-tango .jcarousel-next-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-vertical:focus {
+    background-position: 0 -32px;
+}
+.jcarousel-skin-tango .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:focus,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-vertical.png) no-repeat 0 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-vertical:focus {
+    background-position: 0 -32px;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:focus,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}*/
+
+
+
+
+/*********************** pop up ***********************/
+#wrap {
+    color: #404040;
+    /*margin: 0 12%;*/
+    margin: 10px 10px;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0pt;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+br.both {
+	clear: both;
+}
+#backgroundPopup {
+	display: none;
+	position: fixed;
+	_position: absolute; /* hack for internet explorer 6*/
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #000000;
+	border: 1px solid #cecece;
+	z-index: 1;
+}
+#popupContact {
+	display: none;
+	position: fixed;
+	_position: absolute; /* hack for internet explorer 6*/
+	height: 540px;
+	width: 790px;
+	background: #FFFFFF;
+	border: 2px solid #cecece;
+	z-index: 2;
+	padding: 0px;
+	font-size: 13px;
+}
+#popupContact h1 {
+	text-align: left;
+	color: #fa6289;
+	font: bold 15px Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dotted #d3d3d3;
+	padding: 0 0 0 5px;
+	margin: 0;
+}
+#popupContact h1 sup {
+	font-size: 10px;
+}
+#popupContactClose {
+	font-size: 10px;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	color: #fa6289;
+	font-weight: 700;
+	display: block;
+}
+#popupContactClose a {
+}
+#popupContactClose a:hover {
+	text-decoration: underline;
+}
+
+
+/***********************************************************
+						Css 
+***********************************************************/

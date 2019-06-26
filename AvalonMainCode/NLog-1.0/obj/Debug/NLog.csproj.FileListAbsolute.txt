@@ -1,0 +1,131 @@
+C:\ASHI\IDoCollection_Avinash\BabyBridals_SVN\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+C:\ASHI\IDoCollection_Avinash\BabyBridals_SVN\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+C:\ASHI\IDoCollection_Avinash\BabyBridals_SVN\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+C:\ASHI\IDoCollection_Avinash\BabyBridals_SVN\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+C:\ASHI\IDoCollection_Avinash\BabyBridals_SVN\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+C:\ASHI\IDoCollection_Avinash\IDoCollection\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+C:\ASHI\IDoCollection_Avinash\IDoCollection\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+C:\ASHI\IDoCollection_Avinash\IDoCollection\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+C:\ASHI\IDoCollection_Avinash\IDoCollection\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+C:\ASHI\IDoCollection_Avinash\IDoCollection\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+C:\ASHI\ASHI_IDOCOLLECTION\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+C:\ASHI\ASHI_IDOCOLLECTION\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+C:\ASHI\ASHI_IDOCOLLECTION\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+C:\ASHI\ASHI_IDOCOLLECTION\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+C:\ASHI\ASHI_IDOCOLLECTION\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+F:\ASHI_IDOCOLLECTION_New\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+C:\ASHI\ASHI_IDOCOLLECTION_V_2.0\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+C:\ASHI\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+D:\ASHI\Ajay\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+D:\ASHI_Projects\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+E:\ASHI_IDOCOLLECTION_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+E:\SHCollection\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+E:\SHCollection\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+E:\SHCollection\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+E:\SHCollection\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+E:\SHCollection\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+D:\ShopHolidayCollection_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\ResolveAssemblyReference.cache
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+E:\D_Drive\ShopHolidayCollection_B2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+E:\ajay\emotiondiamonds\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+E:\ajay\emotiondiamonds\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+E:\ajay\emotiondiamonds\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+E:\ajay\emotiondiamonds\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+E:\ajay\emotiondiamonds\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.dll
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\NLog-1.0\bin\Debug\NLog.pdb
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.dll
+E:\ajay\AshiMicroB2C\SourceCode\Utilities\NLog-1.0\obj\Debug\NLog.pdb
+E:\ajay\AshiMicroB2C\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+E:\ajay\AshiMicroB2C\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+E:\ajay\AshiMicroB2C\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+E:\ajay\AshiMicroB2C\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+E:\ajay\AshiMicroB2C\SourceCode\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+E:\ajay\AshiMicroWSSetup\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+E:\ajay\AshiMicroWSSetup\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+E:\ajay\AshiMicroWSSetup\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+E:\ajay\AshiMicroWSSetup\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+D:\ASHI PROJECTS\Reaponsive Micro Websites\MicroWebsites\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+D:\Ashi\Project\IDoCollectionResponsive\trunk\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+C:\Users\ameykekre\Desktop\IDo_Export_09Ma2016\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+D:\Pravin\Projects\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+E:\ASHI\ASHI-Projects\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+E:\Projects\Avalon-Projects\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+C:\Users\mayankpatni\Desktop\AvalonSolution_MktgResponsive26 April\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+D:\Pravin\Projects\Avalon Solution Marketing\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+C:\Users\mayankpatni\Desktop\Avalon Solution Marketing 18 May\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+E:\Projects\Avalon Solution Marketing 27 May 2016\AvalonSolution_MktgResponsive\AvalonSolution_MktgResponsive\SourceCode\NLog-1.0\obj\Debug\NLog.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\NLog-1.0\bin\Debug\NLog.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\NLog-1.0\bin\Debug\NLog.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\NLog-1.0\obj\Debug\NLog.csprojResolveAssemblyReference.cache
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\NLog-1.0\obj\Debug\NLog.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\NLog-1.0\obj\Debug\NLog.pdb

@@ -1,0 +1,6 @@
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Factories\bin\Release\Factories.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Factories\bin\Release\Factories.pdb
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Factories\bin\Release\Microsoft.ApplicationBlocks.Data.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Factories\obj\Release\Factories.csprojResolveAssemblyReference.cache
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Factories\obj\Release\Factories.dll
+E:\Projects\Avalon-Projects\Avalon Solution Marketing New SVN code\trunk\SourceCode\Factories\obj\Release\Factories.pdb
